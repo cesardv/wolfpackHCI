@@ -1,7 +1,7 @@
 /* global CSS for website */
 
 body{
-	background-image: url(pics/paws.jpg);
+	background-image: url(../pics/paws.jpg);
 	background-repeat: repeat-x;
 	font-family: sans-serif, arial, helvetica;
 	/*background-color: black;*/
