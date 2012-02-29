@@ -1,11 +1,10 @@
-/**global CSS for website */
+/* global CSS for website */
 
-body
- {
-	background-image: "./pics/spots.png";
-	background-repeat: repeat;
+body{
+	background-image: url(pics/paws.jpg);
+	background-repeat: repeat-x;
 	font-family: sans-serif, arial, helvetica;
-	background-color: black;
+	/*background-color: black;*/
 
 }
 
@@ -16,22 +15,20 @@ h1
  		
 }
 
-h2 
-{
-font-size: 2em;
-color: green;
-	
-	}
+h2 {
+	font-size: 2em;
+	color: green;	
+}
 
-	ul.navbar {
-					list-style-type: none;
-					padding: 0;
-					margin: 0;
-					margin-top: 6em;
-					position: absolute;
-					top: 2em;
-					left: 1em;
-					width: 9em 
+ul.navbar {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		margin-top: 6em;
+		position: absolute;
+		top: 2em;
+		left: 1em;
+		width: 9em 
 			}	
 	
 ul.navbar li {
