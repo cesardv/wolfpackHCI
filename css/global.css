@@ -19,6 +19,7 @@ hr { display: none; }
 
 #headerbg {
 	background: url(../pics/dalmatiancamo.png) repeat; 
+	border-bottom: solid black 2px;
 }
 #header {
 	width: 980px;
@@ -72,6 +73,24 @@ hr { display: none; }
 	border-right: none;
 }
 /*=================================================*/
+#polaroid {
+	width: 305px;
+	background-color: white;
+	padding: 8px;
+	border:lightgrey 2px outset;
+	margin-top: 5px;
+	float: center;
+	text-align: center; 
+	font-family: "Marker Felt", comic sans ms, sans-serif;
+	text-decoration: none; 
+	color: #333;
+}
+
+#polaroid img {
+	float:center;
+	border:dashed thin;
+}
+
 /** LOGO =========================================================*/
 
 #logo {
@@ -118,14 +137,59 @@ hr { display: none; }
 
 /* Content ==============================================*/
 
-#page {
+.page {
+	width: 1000px;
 	float: center;
+	margin-left: 405px;
 }
 
-#content {
+.content {
 	background: lightgrey;/*#AFD147;*/
-	float: left;
-	width: 600px;
+	/*float: left;*/
+	width: 999px;
 	padding: 10px
 }
 /* End Content ==============================================*/
+
+/*FOOTER */
+.footer {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted 
+}
+
+/** Left Vert.Nav Menu=============================== */
+ul.navbar {
+					list-style-type: none;
+					padding: 0;
+					margin: 0;
+					position: absolute;
+					top: 2em;
+					left: 1em;
+					width: 9em 
+				  }
+
+		h1 {
+			font-family: Helvetica, Geneva, Arial,
+			SunSans-Regular, sans-serif 
+			}
+		ul.navbar li {
+						background: #C0C0C0;
+						margin: 0.5em 0;
+						padding: 0.3em;
+						border-right: 1em solid black;
+					 }
+		ul.navbar a {
+						font-size: 1.5em;
+						text-decoration: none 
+					}
+		ol.sublink a {
+						font-size: 1em;
+						text-decoration: none 
+					}
+		a:link  {
+				color: blue
+				}
+		a:visited {
+					color: #800000 
+				  }
