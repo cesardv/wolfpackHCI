@@ -140,14 +140,15 @@ hr { display: none; }
 .page {
 	width: 1000px;
 	float: center;
-	margin-left: 405px;
+	margin-left: 10em;
 }
 
 .content {
 	background: lightgrey;/*#AFD147;*/
 	/*float: left;*/
 	width: 999px;
-	padding: 10px
+	padding: 10px;
+	color: black;
 }
 /* End Content ==============================================*/
 
@@ -198,3 +199,7 @@ ul.navbar a {
 .navbar a:hover {
 	text-decoration: underline thick; 
 	}
+/* = =====Left nav menu================ = = = = = = = = = ===========*/
+
+
+	
