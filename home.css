@@ -31,8 +31,8 @@ body {
 	background: url(./contentbg.jpg) no-repeat bottom;
 	/*background-position: 0 513px;*/
 	
-	background: url(./footerbg.jpg) repeat-y left center;
-	background-position: 0px 766px;
+	background: url(./footerbg.jpg) fixed repeat-y left;
+	background-position: 0px 766px; /*if you do repeat it will not pay attention to this position but tile all*/
 	
 	
 }
