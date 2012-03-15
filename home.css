@@ -74,7 +74,8 @@ a:hover {
 /* Menu */
 
 #menu {
-	float: right;
+	float: left; /*right*/
+	margin-left: 50px;
 }
 
 #menu ul {
