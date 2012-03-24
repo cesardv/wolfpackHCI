@@ -1,41 +1,32 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: black;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	/*color: #3C3D3F;*/
-	color: white;
-	background: black url(./headerbg.jpg) no-repeat left top;
+	color: black;
+	background: url(bg.png) repeat;
+	
 }
 
 #wrapper {
 	width: 1600px;
-	/*height: auto;/*900px;*/
+	height: auto;/*900px*/
 	margin: 0px;
-	padding: 0px;/*
-	background: url(./footerbg.jpg) repeat-y bottom;
-	background-position: 0px 900px
-	*/
-	background: url(./contentbg.jpg) no-repeat bottom;
-	background-position: 0 513px;
+	padding: 0px;
+	background: url(./headerbg2.png) no-repeat left top;
 	
+	/*
+	background-position: 0px 900px
 	/*float: left;*/
 }
 
 #contentwrap {
-	padding: 0 0 0px 0; }
+	padding: 0 0 0px 0; 
+	height: 650px;
+	}
 	
-#contentwrap .bg {
-	/*height: auto;
-	background: url(./contentbg.jpg) no-repeat bottom;
-	/*background-position: 0 513px;
-	
-	background: url(./footerbg.jpg) fixed repeat-y left;
-	background-position: 0px 766px; /*if you do repeat it will not pay attention to this position but tile all*/
-	
-	
-}
+
 
 #content {
 	float: center;
@@ -43,8 +34,8 @@ body {
 	width: 850px;
 	height: 100%;
 	padding: 40px 5px 5px 5px;
-	background: url(./contentbg.png) repeat-y;
-	background-size: 100%;
+	/*background: url(./contentbg.png) repeat-y;
+	background-size: 100%;*/
 	font-size: 1.5em;
 
 }
@@ -74,13 +65,12 @@ a:hover {
 /* Menu */
 
 #menu {
-	float: left; /*right*/
-	margin-left: 50px;
+	float: left;
 }
 
 #menu ul {
 	margin: 0px;
-	padding: 75px 0px 0px 0px;
+	padding: 84px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
 }
@@ -98,7 +88,7 @@ a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 	/*color: #202020;*/
 }
@@ -125,7 +115,7 @@ a:hover {
 }
 
 #menu li.active span {
-	background: url(./hoverbg.png) no-repeat top;
+	background: url(./hoverbg.png) no-repeat;
 	color: red;
 }
 
@@ -134,7 +124,7 @@ a:hover {
 #logo {
 	float: left;
 	width: 550px;
-	margin: 0 0 0 80px;
+	margin: 0 0 0 25px;
 	padding: 0;
 	color: #000000;
 }
@@ -163,9 +153,9 @@ a:hover {
 /*FOOTER AND BOTTOM*/
 #footer {
 	padding: 0 0 10px 0;
-	margin-top: 500px;
+	clear: both;
 	/*float: bottom;*/
-	background: url(./footerbg.jpg) repeat-y left top;
+	/*background: url(./footerbg.jpg) repeat-y left top;*/
 	margin-top:20px;
 }
 
