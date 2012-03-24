@@ -23,7 +23,7 @@ body {
 
 #contentwrap {
 	padding: 0 0 0px 0; 
-	height: 650px;
+	height: 100%;
 	}
 	
 
@@ -32,7 +32,7 @@ body {
 	float: center;
 	margin-left: 24%; 
 	width: 850px;
-	height: 100%;
+	height: auto;
 	padding: 40px 5px 5px 5px;
 	/*background: url(./contentbg.png) repeat-y;
 	background-size: 100%;*/
@@ -152,11 +152,11 @@ a:hover {
 
 /*FOOTER AND BOTTOM*/
 #footer {
-	padding: 0 0 10px 0;
+	padding: 1.5em 10px 6px 10px;
 	clear: both;
 	/*float: bottom;*/
 	/*background: url(./footerbg.jpg) repeat-y left top;*/
-	margin-top:20px;
+	margin-top:150px;
 }
 
 address {
