@@ -4,7 +4,10 @@
 */
 
 
-class Breed extends DBObject {
+if (file_exists("../objects/AppObject.php")) require_once "../objects/AppObject.php";
+else require_once "./objects/AppObject.php";
+
+class Breed extends AppObject {
 	
 	//Atomic Attributes
 	public $name;
@@ -22,11 +25,8 @@ class Breed extends DBObject {
 	public $healthProblems;
 		
 	public __construct( DBLink &$link ) {
-		//import other classes
-		require_once $this->rel_path . "AdditionalInformation.php";
-		require_once $this->rel_path . "Photos.php";
-		require_once $this->rel_path . "TrainingTips.php";
-		require_once $this->rel_path . "HealthProblems.php";
+		//import other classes		
+		parent :: import( array("AdditionalInformation", "Photos", "TrainingTips", "HealthProblems") );
 		
 		$this->link = $link;
 		$this->additionalInformation = new AdditionalInformation($this->link);

@@ -3,9 +3,9 @@
 *	DATE:			2 March 2012
 */
 
-class DBObject {
+class AppObject {
 	
-	protected $rel_path;
+	public $rel_path;
 	
 	public $errorMessages;
 	private $dirStructure = array(
@@ -21,23 +21,31 @@ class DBObject {
 	}
 	
 	public function __get( $name ) {
-		if (method_exists( $this, "get_${name}")):
-			if ($name==="rel_path") $this->setRelPath();
-			return $this->{"get_$name"}();
+		$value = "";
+		if ($name=="rel_path"):
+			$value = $this->getRelPath();
 		endif;
+		return $value;
+	}
+	
+	public function import ( array $objects ) {
+		foreach ($objects as $classname):
+			require_once $this->rel_path . "/objects/" . $classname . ".php";
+		endforeach;
 	}
 	
 	/*HELPER FUNCTIONS*/
 	
-	private function setRelPath () {
+	private function getRelPath () {
+		$rel_path = ".";
 		$cd = $_SERVER['PHP_SELF'];
 		foreach ($this->dirStructure as $dir):
 			if ( preg_match("/".$dir."/", $cd)):
-				$this->rel_path = "..";
+				$rel_path = "..";
 				return;
 			endif;
 		endforeach;
-		$this->rel_path = ".";
+		return $rel_path;
 	}
 
 	
