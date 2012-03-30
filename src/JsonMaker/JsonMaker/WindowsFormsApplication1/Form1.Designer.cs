@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.heightTxtbox = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.patherrorlbl = new System.Windows.Forms.Label();
             this.temper = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -68,8 +70,6 @@
             this.jsonfile = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.imagefilenaneTooltip = new System.Windows.Forms.ToolTip(this.components);
-            this.label17 = new System.Windows.Forms.Label();
-            this.heightTxtbox = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -124,6 +124,16 @@
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // heightTxtbox
+            // 
+            resources.ApplyResources(this.heightTxtbox, "heightTxtbox");
+            this.heightTxtbox.Name = "heightTxtbox";
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
             // patherrorlbl
             // 
             resources.ApplyResources(this.patherrorlbl, "patherrorlbl");
@@ -141,7 +151,10 @@
             resources.GetString("temper.Items4"),
             resources.GetString("temper.Items5"),
             resources.GetString("temper.Items6"),
-            resources.GetString("temper.Items7")});
+            resources.GetString("temper.Items7"),
+            resources.GetString("temper.Items8"),
+            resources.GetString("temper.Items9"),
+            resources.GetString("temper.Items10")});
             resources.ApplyResources(this.temper, "temper");
             this.temper.Name = "temper";
             // 
@@ -330,16 +343,6 @@
             // imagefilenaneTooltip
             // 
             this.imagefilenaneTooltip.Tag = "filename of file that will fo into ./images of website";
-            // 
-            // label17
-            // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.Name = "label17";
-            // 
-            // heightTxtbox
-            // 
-            resources.ApplyResources(this.heightTxtbox, "heightTxtbox");
-            this.heightTxtbox.Name = "heightTxtbox";
             // 
             // Form1
             // 

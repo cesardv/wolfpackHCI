@@ -48,25 +48,25 @@ namespace WindowsFormsApplication1
 
                 // obj = "{ "; curlies were the effin prob all along. Escape them using {{ and }}
 
-                string obj = string.Format("\n\r{{ \n\r\t\"id\" : {0}, \n\r\t\"name\" : \"{1}\", \n\r\t\"origin\" : \"{2}\", \n\r\t\"group\" : \"{3}\" , \n\r\t\"weight\" : \"{4}\", \n\r\t\"temperament\" : \"{5}\", \n\r\t\"lifespan\" : \"{6}\", \n\r\t\"description\" : \"{7}\", \n\r\t\"picfilename\" : \"{8}\",", id, name, orig, grp, wgt, tmpr, lifespan, desc, pic);
+                string obj = string.Format("\n{{ \n\t\"id\" : {0}, \n\t\"name\" : \"{1}\", \n\t\"origin\" : \"{2}\", \n\t\"group\" : \"{3}\" , \n\t\"weight\" : \"{4}\", \n\t\"temperament\" : \"{5}\", \n\t\"lifespan\" : \"{6}\", \n\t\"description\" : \"{7}\", \n\t\"picfilename\" : \"{8}\",", id, name, orig, grp, wgt, tmpr, lifespan, desc, pic);
 
                 //adds health sub-object if it has health issues
                 if (HasHealthIssues.SelectedItem.ToString() == "True")
                 {
-                    obj += string.Format("\n\n\t\"hasHealthIssue\": true, \n\n\t\"healthIssue\" : \n\n\t{{ \n\n\t\"issue\":\"{0}\"  \n\n\t}}, \n\n", healthIssue.Text);
+                    obj += string.Format("\n\t\"hasHealthIssue\": true, \n\t\"healthIssue\" : \n\t{{ \n\t\"issue\":\"{0}\"  \n\n\t}}, \n\n", healthIssue.Text);
                 }
-                else obj += "\n\r\t\"hasHealthIssue\": false, \n\n\t\"healthIssue\" : null, ";
+                else obj += "\n\t\"hasHealthIssue\": false, \n\t\"healthIssue\" : null, ";
 
                 if (HasTrainingTips.SelectedItem.ToString() == "True")
                 {
-                    obj += string.Format(" \n\r\t\"hasTrainingTip\": true, \n\r\t\"trainingTip\" : \n\n\t{{ \n\t\"tip\":\"{0}\"  \n\t}}, \n", TrainingTips.Text);
+                    obj += string.Format(" \n\t\"hasTrainingTip\": true, \n\t\"trainingTip\" : \n\n\t{{ \n\t\"tip\":\"{0}\"  \n\t}}, \n", TrainingTips.Text);
                 }
                 else
                 {
-                    obj += " \n\r\t\"hasTrainingTip\": false, \n\r\t\"trainingTip\" : null, ";
+                    obj += " \n\t\"hasTrainingTip\": false, \n\t\"trainingTip\" : null, ";
                 }
 
-                obj += string.Format("\n\r\t\"height\" : \"{0}\" ",heightTxtbox.Text);
+                obj += string.Format("\n\t\"height\" : \"{0}\" ",heightTxtbox.Text);
 
                 obj += "\n\n" + @"}"; //last closing bracket
 
