@@ -1,0 +1,205 @@
+/* global CSS for website */
+
+body{
+	padding: 0;
+	margin: 0;
+	color: grey;
+	font-family: sans-serif, arial, helvetica;
+	/*background-color: black;*/
+
+}
+
+hr { display: none; }
+
+#wrapper {
+	/*background-image: url(../pics/dalmatian.png);
+	background-repeat: repeat-x; */
+	/*background: url(../pics/dalmatiancamo.png) repeat; /*-y center top;*/
+}
+
+#headerbg {
+	background: url(../pics/dalmatiancamo.png) repeat; 
+	border-bottom: solid black 2px;
+}
+#header {
+	width: 980px;
+	height: 98px;
+	margin: 0 auto;
+	background: url(../pics/headerbg.jpg) no-repeat left top; 
+}
+
+/* Menu ===========================================================*/
+
+#menu {
+	float: right;
+	width: 620px;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 50px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	border-right: 1px solid #AFD147;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	text-decoration: underline; 
+}
+
+#menu .current_page_item a {
+}
+
+#menu .last {
+	border-right: none;
+}
+/*=================================================*/
+#polaroid {
+	width: 305px;
+	background-color: white;
+	padding: 8px;
+	border:lightgrey 2px outset;
+	margin-top: 5px;
+	float: center;
+	text-align: center; 
+	font-family: "Marker Felt", comic sans ms, sans-serif;
+	text-decoration: none; 
+	color: #333;
+}
+
+#polaroid img {
+	float:center;
+	border:dashed thin;
+}
+
+/** LOGO =========================================================*/
+
+#logo {
+	float: left;
+	width: 260px;
+	margin: 0 auto;
+	padding-left: 100px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#logo p {
+	margin-top: -4px;
+	text-transform: lowercase;
+	font-size: 15px;
+	color: #AFD147;
+}
+
+#logo h1 {
+	padding-top: 10px;
+	font-size: 48px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #AFD147;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#banner {
+	padding-bottom: 20px;
+}
+
+/* Content ==============================================*/
+
+.page {
+	width: 1000px;
+	float: center;
+	margin-left: 10em;
+}
+
+.content {
+	background: lightgrey;/*#AFD147;*/
+	/*float: left;*/
+	width: 999px;
+	padding: 10px;
+	color: black;
+}
+/* End Content ==============================================*/
+
+/*FOOTER */
+.footer {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted;
+	float: center;
+}
+
+/** Left Vert.Nav Menu=============================== */
+.leftnav {
+float:left;
+padding-top: 50px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	/*position: absolute;*/
+	top: 2em;
+	left: 1em;
+	width: 9em 
+	}
+
+ul.navbar li {
+	background: #C0C0C0;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid black;
+	}
+	
+ul.navbar a {
+	font-size: 1.5em;
+	text-decoration: none 
+	}				
+
+.navbar a:link  {
+	color: blue
+	}
+.navbar a:visited {
+	color: #800000;
+	}
+.navbar a:hover {
+	text-decoration: underline thick; 
+	}
+/* = =====Left nav menu================ = = = = = = = = = ===========*/
+
+
+	
