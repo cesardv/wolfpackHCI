@@ -3,7 +3,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	color: grey;
+	color:#444;
 	font-family: sans-serif, arial, helvetica;
 	/*background-color: black;*/
 
@@ -11,21 +11,27 @@ body{
 
 hr { display: none; }
 
-#wrapper {
-	/*background-image: url(../pics/dalmatian.png);
-	background-repeat: repeat-x; */
-	/*background: url(../pics/dalmatiancamo.png) repeat; /*-y center top;*/
+.pgWidth{
+	width:980px;
+}
+
+.pgTitle {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-left:35px;	
+}
+
+.center {
+	margin: 0 auto;
 }
 
 #headerbg {
 	background: url(../pics/dalmatiancamo.png) repeat; 
-	border-bottom: solid black 2px;
+	border-bottom: solid black 1px;
 }
 #header {
-	width: 980px;
 	height: 98px;
-	margin: 0 auto;
-	background: url(../pics/headerbg.jpg) no-repeat left top; 
+	/*margin: 0 auto;*/
+	/*background: url(../pics/headerbg.jpg) no-repeat left top; */
 }
 
 /* Menu ===========================================================*/
@@ -49,6 +55,10 @@ hr { display: none; }
 	border-right: 1px solid #AFD147;
 }
 
+#menu li.last{
+	border:none;
+}
+
 #menu a {
 	display: block;
 	float: left;
@@ -69,27 +79,6 @@ hr { display: none; }
 #menu .current_page_item a {
 }
 
-#menu .last {
-	border-right: none;
-}
-/*=================================================*/
-#polaroid {
-	width: 305px;
-	background-color: white;
-	padding: 8px;
-	border:lightgrey 2px outset;
-	margin-top: 5px;
-	float: center;
-	text-align: center; 
-	font-family: "Marker Felt", comic sans ms, sans-serif;
-	text-decoration: none; 
-	color: #333;
-}
-
-#polaroid img {
-	float:center;
-	border:dashed thin;
-}
 
 /** LOGO =========================================================*/
 
@@ -130,42 +119,69 @@ hr { display: none; }
 	color: #FFFFFF;
 }
 
-
-#banner {
-	padding-bottom: 20px;
-}
-
 /* Content ==============================================*/
-
-.page {
-	width: 1000px;
-	float: center;
-	margin-left: 10em;
+.content {
+	background:#EEE;
+	float:left;
+	margin-top:-16px; /*This lines the content up so its top is flush with the header's bottom.  Not sure what other element is causing the need for this adjustment*/
+	border-left:thin groove;
+	border-right:thin groove;
 }
 
-.content {
-	background: lightgrey;/*#AFD147;*/
-	/*float: left;*/
-	width: 999px;
-	padding: 10px;
-	color: black;
+.colLeft{
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+	background-color:white;
+}
+
+.colRight{
+	float:right;
+	border: 3px solid #777;
+	margin-right:10px;
+	margin-top:15px;
+}
+
+.panel{
+	border: 3px solid #777777;
+}
+
+.panelHoriz{
+	width: 640px;
+}
+
+.panelVert{
+	width:250px;
+	height: 500px;
 }
 /* End Content ==============================================*/
+
+/* Home Page */
+
+#teamBackground{
+	height: 200px;
+	left:20px;
+	top: 50px;
+}	
+#contactInfo{
+	height: 200px;
+	left:20px;
+}
+#healthInfo{
+	height: 200px;
+	left:20px;
+}
+#moreResources{
+	height: 200px;
+	top: 50px;
+}
+
 
 /*FOOTER */
 .footer {
 	margin-top: 1em;
 	padding-top: 1em;
 	border-top: thin dotted;
-	float: center;
-}
-
-/** Left Vert.Nav Menu=============================== */
-.leftnav {
-float:left;
-padding-top: 50px;
-margin-top: 100px;
-margin-bottom: 100px;
 }
 
 ul.navbar {
@@ -197,9 +213,5 @@ ul.navbar a {
 	color: #800000;
 	}
 .navbar a:hover {
-	text-decoration: underline thick; 
+	text-decoration: underline; 
 	}
-/* = =====Left nav menu================ = = = = = = = = = ===========*/
-
-
-	

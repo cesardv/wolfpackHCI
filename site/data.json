@@ -1,0 +1,62 @@
+	var breeds = [
+	{ 
+		"name" : "Shih Tzu", 
+		"origin" : "Dates back many centuries to ancient China and Tibet. Name means 'lion'", 
+		"group" : "Toy" , 
+		"weight" : "9 to 16 lbs.", 
+		"temperament" : "Excellent watchdogs. They are alert, vigilant and will reliably bark.", 
+		"lifespan" : "11 to 15 years", 
+		"description" : "desc", 
+		"picfilename" : "6.x",
+		"healthProblems":[{
+			"name":"Cleft Palate"
+			},{
+			"name":"Dental Problems",
+			"description":"Diseases and disorders affecting the dog's mouth",
+			"url":"http://cnn.com"
+			},{
+			"name":"Eye Problems",
+			"description":"Issues relating to the dog's vision and/or ability to see",
+			"url":"http://cnn.com"
+			},{
+			"name":"Hypothyroidism",
+			"description":"A clinical syndrome caused by inadequate production and release of the thyroid hormones triiodothyronine (T3) and thyroxine (T4)",
+			"url":"http://cnn.com"
+			}
+		], 
+		"hasTrainingTip": true, 
+		"trainingTip" : [
+			{ 
+			"tip":"desc train"  
+			}
+		],
+		"height" : "2" 
+	},{ 
+		"name" : "Golden Retriever", 
+		"origin" : "GoldLandia", 
+		"group" : "Dogs" , 
+		"weight" : "100", 
+		"temperament" : "Friendly", 
+		"lifespan" : "9-16", 
+		"description" : "The Golden Retriever is a loyal friend...", 
+		"picfilename" : "Golden.png",
+		"healthProblems":[{
+			"name":"Problem A"
+			},{
+			"name":"Problem B",
+			"description":"Description B",
+			"url":"http://cnn.com"
+			},{
+			"name":"Problem C",
+			"description":"Description C",
+			"url":"http://cnn.com"
+			}
+		],
+		"hasTrainingTip": true, 
+		"trainingTip" : [
+			{ 
+			"tip":"train gently"  
+			}
+		],
+		"height" : "30 inches" 
+	}];
