@@ -32,7 +32,7 @@ $(document).ready( function() {
 		$.each(breeds, function (key, val) {
 			regex = new RegExp("^"+letter);
 			doAdd = !null || val.name.match(regex);
-			if (doAdd) html += "<div id='"+key+"' class='breedItem'><span class='breedItemText'>"+val.name+"</span></div>";
+			if (doAdd) html += "<div id='"+key+"' class='breedItem'><div class='breedItemText'>"+val.name+"</div></div>";
 		});
 		
 		$("#breedList").html( html );
@@ -64,8 +64,10 @@ $(document).ready( function() {
 			
 		});
 		
+		$("div.breedItem:*").removeClass("breedItem_selected");
+		$(this).addClass("breedItem_selected");
+		
 	});
-
 	
 	//The pages default selections.
 	

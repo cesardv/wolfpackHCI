@@ -6,3 +6,95 @@ div.breedPanel {
 	height:25px;
 	float:left;	
 }
+
+/*BREED CONTENT*/
+
+div.breedContentContainer {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	height:570px;
+	top:10px;
+	border:thin groove;
+	background-color:white;
+}
+
+div.breedHeader {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:590px;
+	height:200px;
+	
+}
+
+div.breedImage {
+	position:absolute;
+	top:70px;
+	left:15px;
+	width:100px;
+	height:100px;
+}
+
+div.breedName {
+	position:absolute;
+	top:15px;
+	left:15px;
+	text-align:left;
+	color:#AFD147;
+	font-size:35px;
+	overflow:hidden;
+	width:575px;
+	height:40px;
+}
+
+div.breedDescription {
+	position:absolute;
+	top:70px;
+	right:15px;
+	width:430px;
+	height:100px;
+	color:#555;
+	text-align:justify;
+	overflow:scroll;
+	font-size:10px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height:15px;
+}
+
+div.breedBody {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:590px;
+	height:250px;
+}
+
+div.generalDescription {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:550px;
+}
+
+table {
+	width:500px;
+	height:150px;
+	text-align:left;
+	margin-left:15px;
+}
+
+tr {
+}
+
+td.field {
+	font-size:14px;
+	width:100px;
+}
+
+td.value {
+	font-size:13px;
+	width:auto;
+}
