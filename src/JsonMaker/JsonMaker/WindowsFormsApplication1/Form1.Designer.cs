@@ -69,9 +69,29 @@
             this.label1 = new System.Windows.Forms.Label();
             this.jsonfile = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label23 = new System.Windows.Forms.Label();
+            this.id = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.clearBtn = new System.Windows.Forms.Button();
+            this.CreateJsonBtn = new System.Windows.Forms.Button();
+            this.label21 = new System.Windows.Forms.Label();
+            this.descFoodtxt = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioBad = new System.Windows.Forms.RadioButton();
+            this.radioGood = new System.Windows.Forms.RadioButton();
+            this.label19 = new System.Windows.Forms.Label();
+            this.chemicaltxtbx = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.foodnametxtbx = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.foodjsonfile = new System.Windows.Forms.TextBox();
             this.imagefilenaneTooltip = new System.Windows.Forms.ToolTip(this.components);
+            this.label24 = new System.Windows.Forms.Label();
+            this.foodpicfile = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -336,13 +356,134 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label24);
+            this.tabPage2.Controls.Add(this.foodpicfile);
+            this.tabPage2.Controls.Add(this.label23);
+            this.tabPage2.Controls.Add(this.id);
+            this.tabPage2.Controls.Add(this.label22);
+            this.tabPage2.Controls.Add(this.clearBtn);
+            this.tabPage2.Controls.Add(this.CreateJsonBtn);
+            this.tabPage2.Controls.Add(this.label21);
+            this.tabPage2.Controls.Add(this.descFoodtxt);
+            this.tabPage2.Controls.Add(this.groupBox1);
+            this.tabPage2.Controls.Add(this.label19);
+            this.tabPage2.Controls.Add(this.chemicaltxtbx);
+            this.tabPage2.Controls.Add(this.label20);
+            this.tabPage2.Controls.Add(this.foodnametxtbx);
+            this.tabPage2.Controls.Add(this.label18);
+            this.tabPage2.Controls.Add(this.foodjsonfile);
             resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // label23
+            // 
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.Name = "label23";
+            this.imagefilenaneTooltip.SetToolTip(this.label23, resources.GetString("label23.ToolTip"));
+            // 
+            // id
+            // 
+            resources.ApplyResources(this.id, "id");
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.imagefilenaneTooltip.SetToolTip(this.id, resources.GetString("id.ToolTip"));
+            // 
+            // label22
+            // 
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label22.Name = "label22";
+            // 
+            // clearBtn
+            // 
+            this.clearBtn.BackColor = System.Drawing.Color.Salmon;
+            resources.ApplyResources(this.clearBtn, "clearBtn");
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.UseVisualStyleBackColor = false;
+            // 
+            // CreateJsonBtn
+            // 
+            resources.ApplyResources(this.CreateJsonBtn, "CreateJsonBtn");
+            this.CreateJsonBtn.Name = "CreateJsonBtn";
+            this.CreateJsonBtn.UseVisualStyleBackColor = true;
+            this.CreateJsonBtn.Click += new System.EventHandler(this.CreateJsonBtn_Click);
+            // 
+            // label21
+            // 
+            resources.ApplyResources(this.label21, "label21");
+            this.label21.Name = "label21";
+            // 
+            // descFoodtxt
+            // 
+            resources.ApplyResources(this.descFoodtxt, "descFoodtxt");
+            this.descFoodtxt.Name = "descFoodtxt";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioBad);
+            this.groupBox1.Controls.Add(this.radioGood);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // radioBad
+            // 
+            resources.ApplyResources(this.radioBad, "radioBad");
+            this.radioBad.Name = "radioBad";
+            this.radioBad.TabStop = true;
+            this.radioBad.UseVisualStyleBackColor = true;
+            // 
+            // radioGood
+            // 
+            resources.ApplyResources(this.radioGood, "radioGood");
+            this.radioGood.Name = "radioGood";
+            this.radioGood.TabStop = true;
+            this.radioGood.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.Name = "label19";
+            // 
+            // chemicaltxtbx
+            // 
+            resources.ApplyResources(this.chemicaltxtbx, "chemicaltxtbx");
+            this.chemicaltxtbx.Name = "chemicaltxtbx";
+            // 
+            // label20
+            // 
+            resources.ApplyResources(this.label20, "label20");
+            this.label20.Name = "label20";
+            // 
+            // foodnametxtbx
+            // 
+            resources.ApplyResources(this.foodnametxtbx, "foodnametxtbx");
+            this.foodnametxtbx.Name = "foodnametxtbx";
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.Name = "label18";
+            // 
+            // foodjsonfile
+            // 
+            resources.ApplyResources(this.foodjsonfile, "foodjsonfile");
+            this.foodjsonfile.Name = "foodjsonfile";
+            // 
             // imagefilenaneTooltip
             // 
             this.imagefilenaneTooltip.Tag = "filename of file that will fo into ./images of website";
+            // 
+            // label24
+            // 
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            // 
+            // foodpicfile
+            // 
+            resources.ApplyResources(this.foodpicfile, "foodpicfile");
+            this.foodpicfile.Name = "foodpicfile";
             // 
             // Form1
             // 
@@ -353,6 +494,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -399,6 +544,24 @@
         private System.Windows.Forms.Label patherrorlbl;
         private System.Windows.Forms.TextBox heightTxtbox;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox chemicaltxtbx;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox foodnametxtbx;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox foodjsonfile;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox id;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button clearBtn;
+        private System.Windows.Forms.Button CreateJsonBtn;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox descFoodtxt;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radioBad;
+        private System.Windows.Forms.RadioButton radioGood;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox foodpicfile;
     }
 }
 
