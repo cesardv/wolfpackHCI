@@ -6,21 +6,26 @@
 <title>Team Wolfpack's Project Website Csc4720 | Woofpack.info - All You need to know about dogs</title>
 <!-- MetaData about data... -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- BEGIN JQUERY -->
 		<script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" language="javascript" src='js/jquery-ui-1.8.18/js/jquery-ui-1.8.18.custom.min.js'></script>
+        <link href="js/jquery-ui-1.8.18/css/south-street/jquery-ui-1.8.18.custom.css" type="text/css" rel='stylesheet' />
+	   <script src='./js/breeds.js'></script>
+        <!-- END JQUERY -->
+        
 		<!--<script type="text/javascript" language="javascript" src="js/app.js"></script>-->
 		<script type="text/javascript" language="javascript" src="data.json"></script>
-        <script src='./js/breeds.js'></script>
-        
-        <link href='./css/breeds.css' type='text/css' rel='stylesheet' />
-        
+                
 		<!-- No more meta please -->
 		
-			<!-- CSS global --> 
+			<!-- CSS global 
 			<style type="text/css">
 				@import url(./css/global.css);
-			</style>
-			<!-- <link href="./css/global.css" rel="stylesheet" type="text/css" /> -->
-			
+			</style> -->
+			<link href="./css/global.css" rel="stylesheet" type="text/css" />
+            <link href='./css/breeds.css' type='text/css' rel='stylesheet' /> <!-- applies to overall content of breeds page -->
+            <link href='./css/breed.css' type="text/css" rel='stylesheet' /> <!-- applies to specific breed related content on the right -->
+
 			<!-- Favicon is nice-->
 			<link rel="shortcut icon" href="./pics/favicon.ico" type="image/x-icon" />
 
@@ -40,7 +45,7 @@ End of HEAD start of Body ======================================================
 			<h1 class='pgTitle'>Find Your Breed ...</h1>
             <div class='letterPanel'><!-- POPULATED WITH BREEDS.JS --></div>
 			<div class="colLeft">
-				<div id="breedList" class="panel panelVert"></div>
+				<div id="breedList" class="panel panelVert"><!-- POPULATED WITH BREEDS.JS --></div>
 			</div>	
 			<div class="colRight">
             	<div id='breedContent'></div>

@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #breedList{
-
+	overflow:scroll;
 }
 
 #breedContent {
@@ -10,7 +10,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	width:650px;
-	height:500px;	
+	height:600px;	
 }
 
 select.breeds {
@@ -64,100 +64,23 @@ div.breedItem {
 	border-bottom:thin groove;	
 }
 
+div.breedItem_selected {
+	background-color:#9F3;
+}
+
 div.breedItem:hover {
 	cursor:pointer;
 	background-color:#CFC;	
 }
 
-span.breedItemText {
+div.breedItemText {
 	position:absolute;
+	display:block;
 	width:250px;
+	height:20px;
 	text-align:center;
 	top:6px;
 	font-size:18px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-		
-}
-
-/*BREED CONTENT*/
-
-div.breedContentContainer {
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	width:600px;
-	height:480px;
-	top:10px;
-	border:thin groove;
-	background-color:white;
-}
-
-div.breedHeader {
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	width:590px;
-	height:200px;
-	
-}
-
-div.breedImage {
-	position:absolute;
-	top:15px;
-	left:15px;
-	width:150px;
-	height:150px;
-}
-
-div.breedName {
-	position:absolute;
-	top:15px;
-	right:15px;
-	text-align:right;
-	color:#AFD147;
-	font-size:35px;
-}
-
-div.breedDescription {
-	position:absolute;
-	top:70px;
-	right:15px;
-	color:#555;
-	text-align:justify;
-}
-
-div.breedBody {
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	width:590px;
-	height:250px;
-}
-
-div.generalDescription {
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-	width:550px;
-}
-
-table {
-	width:500px;
-	height:150px;
-	text-align:left;
-	margin-left:15px;
-}
-
-tr {
-}
-
-td.field {
-	font-size:14px;
-	width:100px;
-}
-
-td.value {
-	font-size:13px;
-	width:auto;
+	overflow:hidden;
 }
