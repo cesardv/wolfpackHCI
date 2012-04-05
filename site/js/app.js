@@ -46,9 +46,9 @@ function breedSelected(breedName){
 	while(breeds[i]){
 		if(breeds[i].name == breedName){
 			j = 0;
-			while(breeds[i].healthProblems[j]){
-				description = ((breeds[i].healthProblems[j].description) ? (': ' + breeds[i].healthProblems[j].description) : (""));
-				addListItem('#healthInfo', (breeds[i].healthProblems[j].name + description));
+			while(breeds[i].healthIssues[j]){
+				description = ((breeds[i].healthIssues[j].description) ? (': ' + breeds[i].healthIssues[j].description) : (""));
+				addListItem('#healthInfo', (breeds[i].healthIssues[j].name + description));
 				
 				j++;
 			}
