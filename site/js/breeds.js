@@ -27,15 +27,17 @@ $(document).ready( function() {
 	
 	function populateBreeds ( letter ) {
 		var html = "";
-		var doAdd = true;
 		var regex = null;
+		var any = letter=="Any";
 		$.each(breeds, function (key, val) {
 			regex = new RegExp("^"+letter);
-			doAdd = !null || val.name.match(regex);
-			if (doAdd) html += "<div id='"+key+"' class='breedItem'><div class='breedItemText'>"+val.name+"</div></div>";
+			doAdd = val.name.match(regex);
+			if (doAdd || any) html += "<div id='"+key+"' class='breedItem'><div class='breedItemText'>"+val.name+"</div></div>";
 		});
 		
 		$("#breedList").html( html );
+		
+		$("div.breedItem:first").trigger("click");
 	}
 	
 	/*EVENTS*/
@@ -46,7 +48,7 @@ $(document).ready( function() {
 			$("div.letter:*").removeClass("letter_selected");
 			$(this).addClass("letter_selected");
 			
-			populateBreeds( $(this).html()=="Any" ? null : $(this).html() );
+			populateBreeds( $(this).html() );
 		}
 	});
 	
@@ -72,6 +74,5 @@ $(document).ready( function() {
 	//The pages default selections.
 	
 	$("div#any").trigger("click");
-	$("div.breedItem:first").trigger("click");
 	
 });
