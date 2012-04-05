@@ -6,7 +6,6 @@
 $(document).ready( function() {
 	
 	/*LETTER PANEL*/
-	
 	var char = 0;
 	var html = "<div id='any' class='letter' style='margin-left:20px'>Any</div>";
 	
