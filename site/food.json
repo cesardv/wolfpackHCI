@@ -1,4 +1,4 @@
-[
+var foods = [
 { 
 	"id" : 1242, 
 	"name" : "Chocolate", 
@@ -118,3 +118,42 @@
 	"picfile" : "salt.jpg" 
  } 
 ,
+{ 
+	"id" : 3925, 
+	"name" : "Fruits", 
+	"contains" : "fiber, Vitamins K and C, manganese", 
+	"isGood" : true, 
+	"description" : "Dogs are omnivores, and can safely eat a variety of fruits and vegetables. Avoid those in the bad catergory or which very exotic, and those that are toxic to dogs, such as grapes/raisins. Sliced apples without seeds are a good source of vitamins and fiber. Bananas are are very safe for dogs, as well as melons, pineapple, blueberries, blackberries, strawberries, huckleberries or raspberries. ", 
+	"picfile" : "fruits.jpg" 
+ } 
+ , 
+ 
+{ 
+	"id" : 4732, 
+	"name" : "Vegetables", 
+	"contains" : "Vitamins, fiber, and minerals", 
+	"isGood" : true, 
+	"description" : "Green beans, carrot sticks, cucumber, zucchini, cooked potatoes, and pumpkin are are perfectly fine for dogs to eat in moderation. Like anything, avoid giving very exotic vegetables to your dog, and avoid foods that usually upset the stomach for your dog. ", 
+	"picfile" : "veggies.jpg" 
+ } 
+ , 
+ 
+{ 
+	"id" : 3641, 
+	"name" : "Cooked lean meats", 
+	"contains" : "proteins", 
+	"isGood" : true, 
+	"description" : "It's no surprise that dogs like meat, however, to avoid the risks eating of raw meat and poultry always feed your dog, cooked lean meats in moderation. Usually given as treats, dogs enjoy meat just like humans. However, lean cooked meats are best to avoid excess fat in their diet, and to prevent E coli and other food-bourne diseases.", 
+	"picfile" : "meat.jpg" 
+ } 
+ , 
+ 
+{ 
+	"id" : 8081, 
+	"name" : "Anti-freeze", 
+	"contains" : "ethylene glycol", 
+	"isGood" : false, 
+	"description" : "Anti-freeze has a sweet taste and can attract the nose and mouth of a curious dog. However, less than four teaspoons can be dangerous to a 10-pound dog. Great care must be taken that any antifreeze spilled is cleaned up and that there are no easily-accessible containers of antifreeze within reach of a dog.", 
+	"picfile" : "antifreeze.jpg" 
+ }
+ ];
