@@ -136,7 +136,7 @@ namespace WindowsFormsApplication1
                 if (radioGood.Checked) isGood = true;
                 else isGood = false;
                 
-                string obj = string.Format(" \r\n{{ \r\n\t\"id\" : {0}, \r\n\t\"name\" : \"{1}\", \r\n\t\"contains\" : \"{2}\", \r\n\t\"isGood\" : {3}, \r\n\t\"description\" : \"{4}\", \r\n\t\"picfile\" : \"{5}\" \r\n }} \r\n\r\n", id.Text, name,  chemicals, isGood, description, pic);
+                string obj = string.Format(" \r\n{{ \r\n\t\"id\" : {0}, \r\n\t\"name\" : \"{1}\", \r\n\t\"contains\" : \"{2}\", \r\n\t\"isGood\" : {3}, \r\n\t\"description\" : \"{4}\", \r\n\t\"picfile\" : \"{5}\" \r\n }} \r\n , \r\n", id.Text, name,  chemicals, isGood.ToString().ToLowerInvariant(), description, pic);
 
 
                 //obj += "\n\n" + @"}"; //last closing bracket

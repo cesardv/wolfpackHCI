@@ -1,0 +1,120 @@
+[
+{ 
+	"id" : 1242, 
+	"name" : "Chocolate", 
+	"contains" : "methylxanthines, like caffeine", 
+	"isGood" : false, 
+	"description" : "Chocolate is highly dangerous, due to a number of substances that are toxic for dogs, but not humans. Caffeine, a xanthine stimulant, is highly toxic for dogs. It can cause vomiting, diarhea, decreased coordination, panting, exessive thirst/urination, hyperactivity, abnormal heart rhythm, tremors, seizures, and in some cases death. Dark chocolate is specially more dangerous than milk chocolate to dogs.", 
+	"picfile" : "chocolate.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 7415, 
+	"name" : "Alcohol", 
+	"contains" : "ethanol, methanol (mineral or wood alcohol)", 
+	"isGood" : false, 
+	"description" : "Any type of alcohol is bad for dogs. If ingested, it can cause vomiting, diarrhea, decreased coordination, central nervous system depression, difficulty breathing, tremors, abnormal blood acidity, coma and even death. Don't give your dog beer!", 
+	"picfile" : "alcohol.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 4994, 
+	"name" : "Avocado", 
+	"contains" : "persin", 
+	"isGood" : false, 
+	"description" : "Avocados, though, they are often touted as a healthy food for humans, it is not good for dogs. Chemicals contained in avocados, namely persin, can cause vomiting and diarrhea in dogs. Some ingestion may even be fatal.", 
+	"picfile" : "avocado.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 4994, 
+	"name" : "Macadamia Nuts", 
+	"contains" : "unknown", 
+	"isGood" : false, 
+	"description" : "Highly toxic to dogs. Ingestion of  these leads to  Macadamia nut toxicosis, which has symptoms such as weakness, depression, vomiting, tremors and hyperthermia. Severe abdominal pain, hind leg paralysis and joint pain are also common, however, with opiate medication and medical attention full recovery can take place within a day or two. ", 
+	"picfile" : "macadamia" 
+ } 
+,
+ 
+{ 
+	"id" : 4044, 
+	"name" : "Grapes/Raisins", 
+	"contains" : "unknown", 
+	"isGood" : false, 
+	"description" : "Grapes and dried grapes (raisins) are known to cause acute renal failure in dogs. Even quantities as small as seven grapes/raisins ingested can be toxic and cause kidney failure in large and small dogs. The exact cause is unknown but the symptoms are often vomiting, no urine output and high creatine levels. Often, death results if large enough amounts were accidentally consumed.", 
+	"picfile" : "graisins.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 3521, 
+	"name" : "Yeast dough", 
+	"contains" : "yeast (microorganism)", 
+	"isGood" : false, 
+	"description" : "Yeast dough, or yeast containing products, can cause severe digestive disturbance in dogs. Excessive gas accumulation can occur, manifesting as bloating and abdominal pain. ", 
+	"picfile" : "yeast.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 6466, 
+	"name" : "Raw meat or poultry", 
+	"contains" : "Harmful bacteria", 
+	"isGood" : false, 
+	"description" : "Raw/Undercooked Meat can contain bacteria such as Salmonella and E. coli that can be harmful to pets. Raw eggs contain an enzyme called avidin that decreases the absorption of biotin (a B vitamin), which can lead to skin and coat problems.", 
+	"picfile" : "rawmeat.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 8746, 
+	"name" : "Bones", 
+	"contains" : "none", 
+	"isGood" : false, 
+	"description" : "Though not necessarily bad, caution must be taken with bones given to dogs. Smaller bones that dogs may ingest can lead to choking the bone, or sustain a grave injury should the bone splinter and become lodged in or puncture your pet’s digestive tract.", 
+	"picfile" : "bone.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 1100, 
+	"name" : "Sweets", 
+	"contains" : "xylitol", 
+	"isGood" : false, 
+	"description" : "Xylitol is used as a (substitute) sweetener in many products, including gum, candy, baked goods and toothpaste. In dogs, xylitol can cause insulin release in most species, which can lead to liver  failure. The increase in insulin leads to hypoglycemia (lowered sugar levels). Initial signs of  toxicosis include vomiting, lethargy and loss of coordination. Signs can progress to recumbancy  and seizures very quickly. Elevated liver enzymes and liver failure can be seen within a few days.", 
+	"picfile" : "gum.jpg" 
+ } 
+
+ ,
+{ 
+	"id" : 9149, 
+	"name" : "Spices or Condiments", 
+	"contains" : "Onions, Garlic, Chives", 
+	"isGood" : false, 
+	"description" : "In a dog's simple digestive system, gastrointestinal irritation could lead to red blood cell damage. An occasional low dose, such as what might be found in pet foods or treats, likely will not cause a problem, but we recommend that you do not give your pets large quantities of  these foods.", 
+	"picfile" : "onionspices.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 9837, 
+	"name" : "Milk", 
+	"contains" : "lactose", 
+	"isGood" : false, 
+	"description" : "Because pets do not possess significant amounts of lactase (the enzyme that breaks down lactose in milk), milk and other milk-based products cause diarrhea or other digestive upsets.", 
+	"picfile" : "milk.jpg" 
+ } 
+,
+ 
+{ 
+	"id" : 3379, 
+	"name" : "Salts", 
+	"contains" : "any salt", 
+	"isGood" : false, 
+	"description" : "Large amounts of salt can produce excessive thirst and urination, or even sodium ion poisoning in pets. Signs of too much salt are diarrhea, depression, tremors, elevated body temperature, seizures and even death.", 
+	"picfile" : "salt.jpg" 
+ } 
+,
