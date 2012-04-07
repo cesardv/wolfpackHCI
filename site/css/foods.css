@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/*Imports*/
+@import url(afood.css);
+
 h4 { margin: 0 10px 0 10px;}
 .clear {
 	clear: both;

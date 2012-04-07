@@ -56,21 +56,21 @@ $(document).ready( function() {
 	});
 	
 	//POPULATE THE FOOD CONTENT AREA
-	$("div.breedItem").live( "click", function() {
+	$("div.foodItem").live( "click", function() {
 		var id = $(this).attr("id");
 		
-		$("div#breedContent").empty().load( "./views/breed.html", function() {
+		$("div#foodContent").empty().load( "./views/afood.html", function() {
 			
-			aBreed = breeds[id];
+			aFood = foodsdata[id];
 			
-			$.each( aBreed, function (key, val) {
+			$.each( aFood, function (key, val) {
 				$("#"+key).html( val );
 			});
 			
 		});
 		
-		$("div.breedItem:*").removeClass("breedItem_selected");
-		$(this).addClass("breedItem_selected");
+		$("div.foodItem:*").removeClass("foodItem_selected");
+		$(this).addClass("foodItem_selected");
 		
 	});
 	
