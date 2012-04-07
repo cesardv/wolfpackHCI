@@ -1,10 +1,10 @@
-var foods = [
+var foodsdata = [
 { 
 	"id" : 1242, 
 	"name" : "Chocolate", 
 	"contains" : "methylxanthines, like caffeine", 
 	"isGood" : false, 
-	"description" : "Chocolate is highly dangerous, due to a number of substances that are toxic for dogs, but not humans. Caffeine, a xanthine stimulant, is highly toxic for dogs. It can cause vomiting, diarhea, decreased coordination, panting, exessive thirst/urination, hyperactivity, abnormal heart rhythm, tremors, seizures, and in some cases death. Dark chocolate is specially more dangerous than milk chocolate to dogs.", 
+	"description" : "Chocolate is highly dangerous, due to a number of substances that are toxic for dogs, but not humans. Caffeine, a xanthine stimulant, is highly toxic for dogs. It can cause vomiting, diarhea, decreased coordination, panting, excessive thirst/urination, hyperactivity, abnormal heart rhythm, tremors, seizures, and in some cases death. Dark chocolate is specially more dangerous than milk chocolate to dogs.", 
 	"picfile" : "chocolate.jpg" 
  } 
 ,
