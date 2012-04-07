@@ -28,8 +28,8 @@ $(document).ready( function() {
 	
 	function populateFoods ( foodtype ) { /*letter = foodtype*/
 		var html = "";
-                var both = foodtype == "both";
-		var isGood = foodtype == "good"
+        var both = foodtype == "Both";
+		var isGood = foodtype == "Good";
 
 		//alert(both);
 		$.each(foodsdata, function (key, val)
