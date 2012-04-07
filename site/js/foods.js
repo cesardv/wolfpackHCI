@@ -28,29 +28,15 @@ $(document).ready( function() {
 	
 	function populateFoods ( foodtype ) { /*letter = foodtype*/
 		var html = "";
-		var regex = null;
-		var both = false;
-		
-		if ( foodtype == "Good" ) {
-			regex = new RegExp("^true");
-			//alert(regex);
-		}
-		else if ( foodtype == "Bad") {
-			regex = new RegExp("^false");
-			//alert(regex);
-		//var both = foodtype=="Both";
-		}
-		else {
-			var both = true;
-			regex = new RegExp("*");	
-		}
+                var both = foodtype == "both";
+		var isGood = foodtype == "good"
+
 		//alert(both);
-		
 		$.each(foodsdata, function (key, val)
 		{
-			//regex = new RegExp("^true");
-			doAdd = val.isGood.match(regex);
-			if (doAdd || both) html += "<div id='"+key+"' class='foodItem'><div class='foodItemText'>"+val.name+"</div></div>";
+                    //NOTE: removed regex because json will automatically treat true false like a boolean versus string.
+                    doAdd = val.isGood == isGood;
+                    if (doAdd || both) html += "<div id='"+key+"' class='foodItem'><div class='foodItemText'>"+val.name+"</div></div>";
 		});
 		
 		$("#foodList").html( html );
@@ -63,9 +49,8 @@ $(document).ready( function() {
 	//POPULATE THE Food SELECTION AREA
 	$("div.foodtype").bind( "click", function() {
 		if (! $(this).hasClass("div.foodtype_selected") ) {
-			$("div.foodtype:*").removeClass("foodtype_selected");
-			$(this).addClass("foodtype_selected");
-			
+			$("div.foodtype:*").removeClass("div.foodtype_selected");
+			$(this).addClass("div.foodtype_selected");
 			populateFoods( $(this).html() );
 		}
 	});
@@ -91,7 +76,7 @@ $(document).ready( function() {
 	
 	//The pages default selections.
 	
-	$("div#any").trigger("click");
+	$("div#both").trigger("click");
 
 	
 });
