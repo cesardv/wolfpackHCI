@@ -10,7 +10,7 @@ h4 { margin: 0 10px 0 10px;}
 }
 
 #foodList{
-	overflow:scroll;
+	overflow: hidden;/*scroll;*/
 }
 
 #foodContent {
@@ -76,10 +76,11 @@ div.food:hover {
 
 div.foodItem {
 	position:relative;
-	float:left;
-	width:250px;
+	/*float:left;*/
+	width:240px;
 	height:25px;
-	border-bottom:thin groove;	
+	border-bottom:thin groove;
+	
 }
 
 div.foodItem_selected {
@@ -92,11 +93,12 @@ div.foodItem:hover {
 }
 
 div.foodItemText {
-	position:absolute;
+	/*position:absolute;*/
 	display:block;
-	width:250px;
-	height:20px;
+	width:190px;
+	height:23px;
 	text-align:center;
+	padding: 0 0 2px 0;
 	top:6px;
 	font-size:18px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
