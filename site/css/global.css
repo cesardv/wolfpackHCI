@@ -133,18 +133,29 @@ hr { display: none; }
 	float:left;
 	margin-left:10px;
 	margin-top:15px;
+<<<<<<< HEAD
 	background-color:white;
+=======
+>>>>>>> carl
 }
 
 .colRight{
 	float:right;
+<<<<<<< HEAD
 	border: 3px solid #777;
+=======
+	border: 1px solid #777;
+>>>>>>> carl
 	margin-right:10px;
 	margin-top:15px;
 }
 
 .panel{
+<<<<<<< HEAD
 	border: 3px solid #777777;
+=======
+	border: 1px solid #777777;
+>>>>>>> carl
 }
 
 .panelHoriz{
@@ -152,13 +163,22 @@ hr { display: none; }
 }
 
 .panelVert{
+<<<<<<< HEAD
 	width:250px;
 	height: 600px;
+=======
+	height: 600px;
+	width:250px;
+}
+.marginBottom{
+	margin-bottom:40px;
+>>>>>>> carl
 }
 /* End Content ==============================================*/
 
 /* Home Page */
 
+<<<<<<< HEAD
 #teamBackground{
 	height: 200px;
 	left:20px;
@@ -168,12 +188,29 @@ hr { display: none; }
 	height: 200px;
 	left:20px;
 }
+=======
+#aboutPanel{
+	left:20px;
+	top: 50px;
+}	
+>>>>>>> carl
 #healthInfo{
 	height: 200px;
 	left:20px;
 }
 #moreResources{
+<<<<<<< HEAD
 	height: 200px;
+=======
+	top: 50px;
+	width:280px;
+}
+#homeDogPic{
+	height:300px;
+	width:300px;
+}
+#welcome{
+>>>>>>> carl
 	top: 50px;
 }
 
