@@ -9,107 +9,74 @@
 div.foodContentContainer {
 
 	position:relative;
-
 	margin-left:auto;
-
 	margin-right:auto;
-
 	width:600px;
-
 	height:570px;
-
 	top:10px;
-
 	border:thin groove;
-
 	background-color:white;
 
 }
 
-
+div.tip:before {
+	content: "Contains: "
+}
+div.tip2:before {
+	content: "Description: "
+}
 
 div.foodHeader {
-
 	position:relative;
-
 	margin-left:auto;
-
 	margin-right:auto;
-
 	width:590px;
-
 	height:200px;
-
-	
-
 }
 
 
 
-div.breedImage {
+div.foodImage {
 
 	position:absolute;
-
 	top:70px;
-
 	left:15px;
-
 	width:100px;
-
 	height:100px;
-
 }
 
 
 
-div.foodName {
-
-	position:absolute;
-
+.foodName {
+	/*position:absolute;
 	top:15px;
-
-	left:15px;
-
+	left:15px;*/
+	display: block;
 	text-align:left;
-
 	color:#AFD147;
-
 	font-size:35px;
-
 	overflow:hidden;
-
-	width:575px;
-
+	width:75%;
 	height:40px;
-
 }
-
+.ingridients {
+	padding: 3px 0 3px 5px;
+	
+}
 
 
 div.foodDescription {
-
-	position:absolute;
-
-	top:70px;
-
+	/*position:absolute;
+	top:70px;*/
 	right:15px;
-
-	width:430px;
-
-	height:100px;
-
+	width:550px;
+	height:auto;
 	color:#555;
-
 	text-align:justify;
-
-	overflow:scroll;
-
-	font-size:10px;
-
+	overflow:visible;
+	font-size:16px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-
-	line-height:15px;
-
+	line-height:20px;
 }
 
 
