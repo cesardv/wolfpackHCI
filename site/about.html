@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Team Wolfpack's Project Website Csc4720 | Woofpack.info - All You need to know about dogs</title>
+<!-- MetaData about data... -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+        <meta name="author" content="Wolfpack" />
+        <meta name="copyright" content="Wolfpack" />
+        <meta name="company" content="Wuff, LLC" />
+        <meta name="revisit-after" content="3 days" />
+		<!-- No more meta please -->
+		
+		<!-- BEGIN JQUERY -->
+		<script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" language="javascript" src='js/jquery-ui-1.8.18/js/jquery-ui-1.8.18.custom.min.js'></script>
+        <link href="js/jquery-ui-1.8.18/css/south-street/jquery-ui-1.8.18.custom.css" type="text/css" rel='stylesheet' />
+	   <script src='./js/breeds.js'></script>
+        <!-- END JQUERY -->
+			<!-- CSS global --> 
+			<style type="text/css">
+				@import url(./css/global.css);
+			</style>
+			<!-- <link href="./css/global.css" rel="stylesheet" type="text/css" /> -->
+			
+			<!-- Favicon is nice-->
+			<link rel="shortcut icon" href="./pics/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<script>
+	$(document).ready(function(){
+		//$( "#tabs" ).tabs();
+		
+		$('#tabs').tabs({
+		    load: function(event, ui) {
+		        $(ui.panel).delegate('a', 'click', function(event) {
+		            $(ui.panel).load(this.href);
+		            event.preventDefault();
+		        });
+		    }
+		});			
+	});
+
+	$('#tabs').bind('tabsselect', function(event, ui) {
+	    // Objects available in the function context:
+	    ui.tab     // anchor element of the selected (clicked) tab
+	    ui.panel   // element, that contains the selected/clicked tab contents
+	    ui.index   // zero-based index of the selected (clicked) tab
+	});
+	
+
+</script>
+
+<!-- 
+End of HEAD start of Body ==================================================================
+-->
+<body>
+	<div id="headerbg">
+		<div id="header" class="pgWidth center">
+				<div id="logo">
+					<h1><a href="#">Woofpack</a></h1>
+					<p><em>All you need to know about dogs</em></p>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="./food.html">Dog Food</a></li>
+						<li><a href="./breeds.html">Popular Breeds</a></li>
+						<li class="last"><a href="./about.html">About</a></li>
+					</ul>
+				</div> <!-- end of menu -->
+		</div> <!-- end of header -->
+	</div>
+		
+
+	<!-- start of Page & CONTENT -->
+	<div class="page pgWidth center">	
+		<div class="content pgWidth">
+			<div class="colLeft">
+				<div id="aboutPanel" class="panel panelHoriz marginBottom">
+					<div id="tabs">
+					     <ul>
+					         <li><a href="#site" title="site"><span>Site</span></a></li>
+					         <li><a href="#team" title="team"><span>Team</span></a></li>
+					         <li><a href="#contact" title="contact"><span>Contact</span></a></li>
+					     </ul>
+						<div id="site">
+							<h2> About Us (Part 3A)</h2>
+							<h3>Goals and Objectives: To provide useful information about several dog breeds.</h3>
+						
+							<h3>Projected User Community: <h3>
+							<h3>Age</h3>
+							<p>
+								The site provides information regarding food that is good or bad for dogs and breed specific information. It is not expected that the site will receive many visitors in their early 20s or younger. We expect age groups that currently have families or have older children away from home. According to the National Pet Owners Survey conducted by the American Pet Products Manufactures Association (APPMA), the average age of the pet owner in the U.S. is almost 43 years old. 
+							</p>
+							<h3>Sex</h3>
+							<p>
+								Gender will depend largely on the information the visitor wants. If a visitor is looking for food that is bad or good for a dog, it may be more likely that the visitor is a female. This information regards healthy nurturing of a dog, which we anticipate females and older males will be more interested in taking the time to research. 
+							</p>
+							<h3>Education</h3>
+							<p>
+								We expect that most visitors will be educated. Keeping an animal healthy is an expensive ordeal and higher yearly income has been consistently positively correlated with higher education attainment. 
+							</p>						
+							<h3>Tasks and Objectives of Users:</h3>
+							<p>
+								To research several breeds' health, common breed-specific tips, and general information regarding their behavior.<br />
+								To research healthy and unhealthy foods for dogs.
+							</p>
+							<h4>Sources:</h4>
+							<cite>
+								1. "Are You the Average Pet Owner?" PetPlace.com. http://www.petplace.com/dogs/are-you-the-average-pet-owner/page1.aspx. Retrieved 1 March 2012
+							</cite>						
+						</div>
+						<div id="team">
+							Team Content
+						</div>
+						<div id="contact">
+							Contact Content
+						</div>						     
+					</div>					
+				</div>
+			</div>	
+			<div class="colRight marginBottom">
+				<div id="moreResources" class="panelVert" style="margin-left:20px;">
+					<h2>More Resources</h2>
+					<ul>
+						<li>Link 1</li>
+						<li>Link 2</li>
+						<li>Link n</li>
+					</ul>
+				</div>	
+			</div>
+			
+			
+		</div> <!-- end of CONTENT-->
+		<div class="footer">
+			<p>Last Updated March 2012</p>
+		</div>
+	</div> <!-- end of page -->
+<!-- ===============================NO DYNAMIC CONTENT PAST THIS POINT================================================-->	
+
+</body>
+
+</html>
+

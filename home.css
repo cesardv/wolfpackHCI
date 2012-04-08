@@ -1,0 +1,274 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	/*color: #3C3D3F;*/
+	color: black;
+	background: url(bg.png) repeat;
+	
+}
+
+#wrapper {
+	width: 1600px;
+	height: auto;/*900px*/
+	margin: 0px;
+	padding: 0px;
+	background: url(./headerbg2.png) no-repeat left top;
+	
+	/*
+	background-position: 0px 900px
+	/*float: left;*/
+}
+
+#contentwrap {
+	padding: 0 0 0px 0; 
+	height: 100%;
+	}
+
+#contplussidebar { /*this is wrapptr for content and side bar ??*/ 
+	width: 900px;
+	margin: 10px 40px 5px 20px;/*0 auto;*/
+	padding: 2px;
+}
+
+
+
+#content {
+	float: center;
+	margin-left: 24%; 
+	width: 850px;
+	height: auto;
+	padding: 40px 5px 5px 5px;
+	/*background: url(./contentbg.png) repeat-y;
+	background-size: 100%;*/
+	font-size: 1.5em;
+
+}
+#header {
+	overflow: hidden;
+	width: 1500px;
+	margin: 0 auto;
+	padding: 2px 0px 0px 0px;
+}
+#header-wrapper {
+	
+	/*bg*/
+	/*height
+	padding: 0;
+	float: top; */
+}
+
+a {
+	text-decoration: underline;
+	color: #1CB543;
+}
+
+a:hover {
+	text-decoration: strong;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 84px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 38px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	/*color: #202020;*/
+}
+
+#menu a:hover {
+	background: url(./hoverbg.png) no-repeat;
+	text-decoration: none;
+	
+}
+
+#menu span {
+	display: inline-block;
+	height: 28px;
+	padding: 10px 30px 0px 30px;
+}
+
+#menu li.active {
+	/*background: #1CB543; neon green
+	 *  background: url(./hoverbg.jpg) no-repeat; */
+}
+
+#menu li.active a {
+	
+}
+
+#menu li.active span {
+	background: url(./hoverbg.png) no-repeat;
+	color: red;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 550px;
+	margin: 0 0 0 25px;
+	padding: 0;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	margin-left: 60px;
+	padding: 20px 0px 0px 0px;
+	letter-spacing: -1px;
+	
+	font-size: 3em;
+	color: white;
+}
+
+#logo p {
+	margin: -5px 0px 0px 0px;
+	padding: 0px 0 0 32px;
+	text-transform: lowercase;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #45302C;
+} 
+
+/*FOOTER AND BOTTOM*/
+#footer {
+	padding: 1.5em 10px 6px 10px;
+	clear: both;
+	/*float: bottom;*/
+	/*background: url(./footerbg.jpg) repeat-y left top;*/
+	margin-top:150px;
+}
+
+address {
+	/**flaot moved to footer/
+	/*background-color: #B8B8B8;*/
+	color: light-grey;
+	font-size: 1em;
+	padding-top: 1em;
+	border-top: thin dashed;
+		}
+address .copytxt {
+	margin-left: 35%;
+	padding: 2px 0 10px 35px;
+	width: 40%;
+	margin-bottom: .3em;
+	margin-top:.1em;
+	line-height: 150%;
+}
+
+#dog {
+width: 150px;
+height: 150px;
+padding: 3px 6px 3px 3px 6px;
+float:left;
+}
+#dog img{
+
+	width: 120px;
+	height: 120px;
+}
+/*SIDE BAR ADDED for NEATNESS ----------------------------------------------*/
+#sidebar {
+	float: left;
+	width: 230px;
+	margin: 0px 2em 0 190px;
+	padding: 0px 0px 0px 0px;
+	background: grey;
+	/*border-bottom: 4px solid #1CB543;*/
+	border: 4px solid #5adeea;
+	color: white;
+	
+}
+#sidebar .current {
+	color: white;
+	font-weight: bold;
+}	
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	margin: 0px 30px 0px 30px;
+	line-height: 35px;
+	border-bottom: 1px solid black;
+	border-left: none;
+	text-align: left;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar li li a {
+	padding: 0px 0px 0px 20px;
+	/*background: url(images/img05.jpg) no-repeat left 5px;*/
+}
+
+#sidebar h2 {
+	height: 30px;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 0px 30px;
+	/*background: url(images/img04.jpg) no-repeat left top;*/
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: -.5px;
+	font-size: 1em;
+	font-weight: bold;
+	/*color: #202020;*/
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	/*text-align: justify;*/
+}
+
+#sidebar a {
+	border: none;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- HTML5 -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Team Wolfpack's Project Website Csc4720 | Woofpack.info - All You need to know about dogs</title>
+<!-- MetaData about data... -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+        <!-- BEGIN JQUERY -->
+            <script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>
+            <script type="text/javascript" language="javascript" src='js/jquery-ui-1.8.18/js/jquery-ui-1.8.18.custom.min.js'></script>
+            <link href="js/jquery-ui-1.8.18/css/south-street/jquery-ui-1.8.18.custom.css" type="text/css" rel='stylesheet' />
+            <!-- data -->
+            <script type="text/javascript" language="javascript" src="food.json"></script>
+            <script src='./js/foods.js'></script>
+        <!-- END JQUERY -->
+                        
+		<!-- No more meta please -->
+		
+			<!-- CSS global 
+			<style type="text/css">
+				@import url(./css/global.css);
+			</style> -->
+			<link href="./css/global.css" rel="stylesheet" type="text/css" />
+			
+            <link href='./css/foods.css' type='text/css' rel='stylesheet' /> <!-- applies to overall content of food page -->
+            <!-- <link href='./css/breed.css' type="text/css" rel='stylesheet' /> --> <!-- applies to specific breed related content on the right -->
+
+			<!-- Favicon is nice-->
+			<link rel="shortcut icon" href="./pics/favicon.ico" type="image/x-icon" />
+
+</head>
+<!-- 
+End of HEAD start of Body ==================================================================
+-->
+<body>
+
+	<script type='text/javascript' language="javascript" src='./js/site.js'></script>
+	<div id="headerbg">
+            <div id="header" class="pgWidth center">
+                    <div id="logo">
+                        <h1><a href="#">Woofpack</a></h1>
+                        <p><em>All you need to know about dogs</em></p>
+                    </div>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./food.html">Dog Food</a>
+                            <li><a href="./breeds.html">Popular Breeds</a></li>
+                            <li class="last"><a href="./about.html">About</a></li>
+                        </ul>
+                    </div> <!-- end of menu -->
+            </div> <!-- end of header -->
+        </div>
+		
+
+	<!-- start of Page & CONTENT -->
+	<div class="page pgWidth center">
+	
+		<div class="content pgWidth">
+			<h1 class='pgTitle'>Dog Food - because you dogs can't eat everything!</h1>
+			<h4>What Foods are Good For Dogs and What to Avoid? Find out here by clicking on each:</h4>
+            
+			<div class="goodbadwrap">
+				<div class='goodbadPanel'><!-- POPULATED WITH foods.JS --> </div>
+			</div>
+			
+			<br class="clear" />
+			<div class="colLeft">
+				<div id="foodList" class="panel panelVert"><!-- POPULATED WITH Foods.JS --></div>
+			</div>	
+			
+			<div class="colRight">
+			
+            	<div id='foodContent'>im inside foodContent and colRight</div>
+				
+			</div>		
+			
+			
+	</div> <!-- end of page pgWidth cnter-->
+		
+		<!-- ============================================================ -->
+		<div class="footer">
+			<p>Last Updated March 2012</p>
+		</div>
+	</div> <!-- end of page -->
+<!-- ===============================NO DYNAMIC CONTENT PAST THIS POINT================================================-->	
+
+
+</body>
+
+</html>
+
