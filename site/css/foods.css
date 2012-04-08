@@ -62,8 +62,14 @@ div.foodtype {
 	left:0px;
 }
 
+div.foodtype:hover {
+	color: #AFD147;
+	text-decoration: underline;
+}
 
-
+.foodtype_selected {
+	color:#AFD147;
+}
 div.foodtype_selected {
 	color:#AFD147;
 }
