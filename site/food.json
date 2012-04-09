@@ -5,7 +5,7 @@ var foodsdata = [
 	"contains" : "methylxanthines, like caffeine", 
 	"isGood" : false, 
 	"description" : "Chocolate is highly dangerous, due to a number of substances that are toxic for dogs, but not humans. Caffeine, a xanthine stimulant, is highly toxic for dogs. It can cause vomiting, diarhea, decreased coordination, panting, excessive thirst/urination, hyperactivity, abnormal heart rhythm, tremors, seizures, and in some cases death. Dark chocolate is specially more dangerous than milk chocolate to dogs.", 
-	"picfile" : "chocolate.jpg" 
+	"picfile" : "chocolate.PNG" 
  } 
 ,
  
@@ -15,7 +15,7 @@ var foodsdata = [
 	"contains" : "ethanol, methanol (mineral or wood alcohol)", 
 	"isGood" : false, 
 	"description" : "Any type of alcohol is bad for dogs. If ingested, it can cause vomiting, diarrhea, decreased coordination, central nervous system depression, difficulty breathing, tremors, abnormal blood acidity, coma and even death. Don't give your dog beer!", 
-	"picfile" : "alcohol.jpg" 
+	"picfile" : "alcohol.PNG"
  } 
 ,
  
@@ -35,7 +35,7 @@ var foodsdata = [
 	"contains" : "unknown", 
 	"isGood" : false, 
 	"description" : "Highly toxic to dogs. Ingestion of  these leads to  Macadamia nut toxicosis, which has symptoms such as weakness, depression, vomiting, tremors and hyperthermia. Severe abdominal pain, hind leg paralysis and joint pain are also common, however, with opiate medication and medical attention full recovery can take place within a day or two. ", 
-	"picfile" : "macadamia" 
+	"picfile" : "macadamia.jpg" 
  } 
 ,
  
@@ -45,7 +45,7 @@ var foodsdata = [
 	"contains" : "unknown", 
 	"isGood" : false, 
 	"description" : "Grapes and dried grapes (raisins) are known to cause acute renal failure in dogs. Even quantities as small as seven grapes/raisins ingested can be toxic and cause kidney failure in large and small dogs. The exact cause is unknown but the symptoms are often vomiting, no urine output and high creatine levels. Often, death results if large enough amounts were accidentally consumed.", 
-	"picfile" : "graisins.jpg" 
+	"picfile" : "grapes.PNG" 
  } 
 ,
  
@@ -55,7 +55,7 @@ var foodsdata = [
 	"contains" : "yeast (microorganism)", 
 	"isGood" : false, 
 	"description" : "Yeast dough, or yeast containing products, can cause severe digestive disturbance in dogs. Excessive gas accumulation can occur, manifesting as bloating and abdominal pain. ", 
-	"picfile" : "yeast.jpg" 
+	"picfile" : "yeast.PNG" 
  } 
 ,
  
@@ -65,7 +65,7 @@ var foodsdata = [
 	"contains" : "Harmful bacteria", 
 	"isGood" : false, 
 	"description" : "Raw/Undercooked Meat can contain bacteria such as Salmonella and E. coli that can be harmful to pets. Raw eggs contain an enzyme called avidin that decreases the absorption of biotin (a B vitamin), which can lead to skin and coat problems.", 
-	"picfile" : "rawmeat.jpg" 
+	"picfile" : "rawmeat.PNG" 
  } 
 ,
  
@@ -75,7 +75,7 @@ var foodsdata = [
 	"contains" : "none", 
 	"isGood" : false, 
 	"description" : "Though not necessarily bad, caution must be taken with bones given to dogs. Smaller bones that dogs may ingest can lead to choking the bone, or sustain a grave injury should the bone splinter and become lodged in or puncture your pet’s digestive tract.", 
-	"picfile" : "bone.jpg" 
+	"picfile" : "bones.PNG" 
  } 
 ,
  
@@ -85,7 +85,7 @@ var foodsdata = [
 	"contains" : "xylitol", 
 	"isGood" : false, 
 	"description" : "Xylitol is used as a (substitute) sweetener in many products, including gum, candy, baked goods and toothpaste. In dogs, xylitol can cause insulin release in most species, which can lead to liver  failure. The increase in insulin leads to hypoglycemia (lowered sugar levels). Initial signs of  toxicosis include vomiting, lethargy and loss of coordination. Signs can progress to recumbancy  and seizures very quickly. Elevated liver enzymes and liver failure can be seen within a few days.", 
-	"picfile" : "gum.jpg" 
+	"picfile" : "sweets.PNG" 
  } 
 
  ,
@@ -95,7 +95,7 @@ var foodsdata = [
 	"contains" : "Onions, Garlic, Chives", 
 	"isGood" : false, 
 	"description" : "In a dog's simple digestive system, gastrointestinal irritation could lead to red blood cell damage. An occasional low dose, such as what might be found in pet foods or treats, likely will not cause a problem, but we recommend that you do not give your pets large quantities of  these foods.", 
-	"picfile" : "onionspices.jpg" 
+	"picfile" : "spices.PNG" 
  } 
 ,
  
@@ -115,7 +115,7 @@ var foodsdata = [
 	"contains" : "any salt", 
 	"isGood" : false, 
 	"description" : "Large amounts of salt can produce excessive thirst and urination, or even sodium ion poisoning in pets. Signs of too much salt are diarrhea, depression, tremors, elevated body temperature, seizures and even death.", 
-	"picfile" : "salt.jpg" 
+	"picfile" : "salt.PNG" 
  } 
 ,
 { 
@@ -124,7 +124,7 @@ var foodsdata = [
 	"contains" : "fiber, Vitamins K and C, manganese", 
 	"isGood" : true, 
 	"description" : "Dogs are omnivores, and can safely eat a variety of fruits and vegetables. Avoid those in the bad catergory or which very exotic, and those that are toxic to dogs, such as grapes/raisins. Sliced apples without seeds are a good source of vitamins and fiber. Bananas are are very safe for dogs, as well as melons, pineapple, blueberries, blackberries, strawberries, huckleberries or raspberries. ", 
-	"picfile" : "fruits.jpg" 
+	"picfile" : "fruits.PNG" 
  } 
  , 
  
@@ -134,7 +134,7 @@ var foodsdata = [
 	"contains" : "Vitamins, fiber, and minerals", 
 	"isGood" : true, 
 	"description" : "Green beans, carrot sticks, cucumber, zucchini, cooked potatoes, and pumpkin are are perfectly fine for dogs to eat in moderation. Like anything, avoid giving very exotic vegetables to your dog, and avoid foods that usually upset the stomach for your dog. ", 
-	"picfile" : "veggies.jpg" 
+	"picfile" : "veggies.PNG" 
  } 
  , 
  
@@ -144,7 +144,7 @@ var foodsdata = [
 	"contains" : "proteins", 
 	"isGood" : true, 
 	"description" : "It's no surprise that dogs like meat, however, to avoid the risks eating of raw meat and poultry always feed your dog, cooked lean meats in moderation. Usually given as treats, dogs enjoy meat just like humans. However, lean cooked meats are best to avoid excess fat in their diet, and to prevent E coli and other food-bourne diseases.", 
-	"picfile" : "meat.jpg" 
+	"picfile" : "leanmeat.PNG" 
  } 
  , 
  

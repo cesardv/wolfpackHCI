@@ -62,13 +62,26 @@ $(document).ready( function() {
 		$("div#foodContent").empty().load( "./views/afood.html", function() {
 			
 			aFood = foodsdata[id];
-			
+			var src = "";
 			$.each( aFood, function (key, val) {
 				$("#"+key).html( val );
 				if (key=="isGood" && !(val))
 					$("#"+key+".goodbad").html("<img src='./pics/DoNotFeed2.png' height='100' width='100' />");
+				
+				if (key=="picfile")
+				{
+					src = "./pics/food/" + val;
+					$('#picfile.foodImage').html("<img src='"+src+ "' height='150' width='150' />");
+				}
 			});
-			
+			/*
+				
+				if (key=="picfile")
+				{
+					src = "./pics/food/" + val;
+					$('#picfile.foodImage').html("<img "+src+ " height='100' width='100' />");
+				}
+			*/
 		});
 		
 		$("div.foodItem:*").removeClass("foodItem_selected");
