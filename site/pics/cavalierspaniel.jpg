@@ -1,0 +1,46 @@
+<div style="width: 322px; margin: 0 25px 20px; font-size: 12px;">
+    <h1>Download</h1>
+    <form action="/en/photos/download/animal-15607.jpg" method="post" class="ajax_form" data-target="#cboxLoadedContent">
+        <p>
+            
+                As registered user, no captcha is presented to you.
+                <a href="/en/accounts/register/">Sign up now!</a>
+            
+        </p>
+        <div style="min-height: 140px; position: relative; right: 2px;"><p> <input style="display:none;" type="text" name="honeypot" id="id_honeypot" /></p>
+<p> 
+<div class="recaptcha_box" id="default_fdiv_recaptcha"></div>
+
+<style>#recaptcha_image img{width:298px;height:58px;}</style>
+<div id="fdiv_recaptcha" style="display:none;">
+    <label class="recaptcha_only_if_image">Security check: Enter the 2 words below</label>
+    <div class="rounded" style="width: 298px; height: 58px; background: #fff; overflow: hidden; margin: 5px 0; border: 1px solid #ddd; padding: 1px 5px;">
+        <div id="recaptcha_image"></div>
+    </div>
+    <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" style="width: 300px;" />
+    <div style="font-size: 12px;"><a href="javascript:Recaptcha.reload()">New words, please!</a> &nbsp; © reCAPTCHA</div>
+</div>
+
+<script>
+    if (typeof jQuery != 'undefined') {
+        setTimeout(function(){
+            var elem = document.getElementById('fdiv_recaptcha');
+            elem.parentNode.removeChild(elem);
+        }, 500);
+
+        $.getScript('http://www.google.com/recaptcha/api/js/recaptcha_ajax.js', function() {
+            Recaptcha.create("6Ld8hL8SAAAAAKbydL06Ir20hG_u2SfRkBbfpTNf", "default_fdiv_recaptcha", {lang: "en", theme: "white"});
+        });
+    } else {
+        var elem = document.getElementById('default_fdiv_recaptcha');
+        elem.parentNode.removeChild(elem);
+
+        var RecaptchaOptions={ theme:'custom', custom_theme_widget:'fdiv_recaptcha', lang:'en' };
+    }
+</script>
+<script src="http://www.google.com/recaptcha/api/challenge?k=6Ld8hL8SAAAAAKbydL06Ir20hG_u2SfRkBbfpTNf"></script>
+<input type="hidden" name="timestamp" value="1334006769" id="id_timestamp" /><input type="hidden" name="security_hash" value="f84972c654eb7ecd7dbc71d54015e1bc88bd9252" id="id_security_hash" /></p></div>
+        <div><input class="button green" type="submit" value="Download" /></div>
+    </form>
+</div>
+<script>$.colorbox.resize()</script>
