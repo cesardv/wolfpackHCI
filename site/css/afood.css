@@ -34,7 +34,10 @@ div.foodHeader {
 	height:200px;
 }
 
-
+.goodbad img {
+	float: right;
+	margin-right: 25px;
+}
 
 div.foodImage {
 
@@ -44,7 +47,6 @@ div.foodImage {
 	width:100px;
 	height:100px;
 }
-
 
 
 .foodName {
@@ -67,8 +69,9 @@ div.foodImage {
 
 div.foodDescription {
 	/*position:absolute;
-	top:70px;*/
-	right:15px;
+	top:70px;
+	right:15px;*/
+	margin-left: 20px;
 	width:550px;
 	height:auto;
 	color:#555;

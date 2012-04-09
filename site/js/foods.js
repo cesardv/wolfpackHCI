@@ -65,6 +65,8 @@ $(document).ready( function() {
 			
 			$.each( aFood, function (key, val) {
 				$("#"+key).html( val );
+				if (key=="isGood" && !(val))
+					$("#"+key+".goodbad").html("<img src='./pics/DoNotFeed2.png' height='100' width='100' />");
 			});
 			
 		});
