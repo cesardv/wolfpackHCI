@@ -17,7 +17,7 @@ var breeds = [
          "temperament": "Friendly",
          "lifespan": "11-15",
          "description": "Make excellent watchdogs. They are alert vigilant and will reliably bark. Makes them ideal for apartments and condominiums. They can live in any sized home and excellent for families single people and make ideal companions for the elderly. Daily brushing and combing is a must to remove tangles and bathing is usually necessary once per week.",
-         "picfilename": "shihtzu.jpg",
+         "picfilename": "shihtzu.JPG",
          "hashealthIssues": true,         "healthIssues": {             "issue": "Dental disorders and diseases affecting the dogs mouth: Cleft Palate. Eye Problems Issues relating to the dog's vision an or ability to see. Hypothyroidism a clinical syndrome caused by inadequate production and release of the thyroid hormones triiodothyronine T3 and thyroxine T4. Invertebral Disk Disease Neurological deficits caused by degeneration and displacement of the material inside an intervertebral disk. Patellar Luxation Patellar luxation, commonly known as a 'slipped knee cap' occurs when the patella is displaced from the joint. Renal Dysplasia. Respiratory Problems Lung and airway disorders affect the dog's respiratory system: Von Willebrand Disease-the most common hereditary blood-clotting disorder in domestic dogs."         },         "hasTrainingTip": true,         "trainingTip": {             "tip": "Are lap dogs and are by no means active outdoorsy dogs. Simple walk around the block and some romping time in the yard or at the park are enough to meet their daily exercise requirements"         },         "height": "9 to 10"     },
 		 
 		 {         "id": 8484,         "name": "Dachshund",
@@ -47,7 +47,7 @@ var breeds = [
          "temperament": "Hyper-Energetic",
          "lifespan": "11-14",
          "description": "Are highly energetic and as they grow into adulthood they never lose the desire to romp and play like a puppy. Protective of their family Boxers are alert and reliable watchdogs sounding the alarm that strangers are approaching. They tend to get along well with family pets they can be aggressive toward other dogs especially dogs of the same sex. Short coat is relatively no fuss. Weekly brushing will keep their year-round shedding under control. Occasional wipes with a chamois cloth will keep the coat shiny. Only need to be bathed as needed, which usually means once every three or four months.",
-         "picfilename": "boxer.png",
+         "picfilename": "boxer.PNG",
          "hashealthIssues": true,         "healthIssues": {             "issue": "allergies, bloat, Boxer cardiomyopathy, sick sinus syndrome, pododermatitis (especially on the front feet), canine follicular dysplasia, brachycephalic syndrome, ear infections, epilepsy, hip dysplasia, hypothyroidism, insulinoma, pyloric stenosis, histiocytic colitis, congenital elbow luxation, melanoma, cutaneous histiocytoma, sensory neuropathy of Boxers, entropion, cherry eye, corneal ulceration, cryptorchidism, sarcomas, subaortic stenosis, Adverse drug reactions to even small doses of Acepromazine and other phenothiazines."         },         "hasTrainingTip": true,         "trainingTip": {             "tip": "Require a lot of vigorous exercise. Long daily walks and plenty of time to run are crucial. Are eternal kids and take direction about as well as any adolescent child. Training should be consistent and leadership should be shown with confidence."         },         "height": "between 21 and 23 inches at the shoulder"     },
 
 {         "id": 8626,         "name": "Beagle",
@@ -77,7 +77,7 @@ var breeds = [
          "temperament": "Hyper-Energetic",
          "lifespan": "12-14",
          "description": "They are spirited terriers, fearless and sassy with minds of their own and aren't above causing mischief to get a laugh. Jack Russell's make fine family dogs Jack Russell's are NOT apartment dogs. Classic terrier traits including excessive barking, willfulness, rudeness to strangers, dog aggression, possessiveness and jealousy ",
-         "picfilename": "jackrussell.png",
+         "picfilename": "jackrussell.PNG",
          "hashealthIssues": true,         "healthIssues": {             "issue": "cataracts cerebellar ataxia  congenital deafness Legg-Calve-Perthes disease lens luxation myasthenia gravis patellar luxation von Willebrand disease "         },         "hasTrainingTip": true,         "trainingTip": {             "tip": "Are highly trainable and are famous for their high-jumping antics Discipline and harsh tones will cause this dog to become defensive which may lead to snapping or biting "         },         "height": "male Jack Russell Terriers is 14 inches at the shoulder and for females, 13 inches"     },
 
 {         "id": 9837,         "name": "German Shepherd ",
