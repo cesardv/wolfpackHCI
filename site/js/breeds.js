@@ -59,9 +59,16 @@ $(document).ready( function() {
 		$("div#breedContent").empty().load( "./views/breed.html", function() {
 			
 			aBreed = breeds[id];
-			
+			var picsrc = "";
 			$.each( aBreed, function (key, val) {
 				$("#"+key).html( val );
+				/*this put the picture src in the img tag*/
+				if (key=="picfilename")
+				{
+					picsrc = "./pics/" + val;
+					$("div#picfilename.breedImage").html("<img src='" + picsrc + "' height='100' width='100' />");
+				}
+				
 			});
 			
 		});
