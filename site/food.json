@@ -155,5 +155,15 @@ var foodsdata = [
 	"isGood" : false, 
 	"description" : "Anti-freeze has a sweet taste and can attract the nose and mouth of a curious dog. However, less than four teaspoons can be dangerous to a 10-pound dog. Great care must be taken that any antifreeze spilled is cleaned up and that there are no easily-accessible containers of antifreeze within reach of a dog.", 
 	"picfile" : "antifreeze.jpg" 
- }
+ },
+ 
+ {
+    "id": 8223,
+    "name": "Onions",
+    "contains": "thiosulphate",
+    "isGood": false,
+    "description": "Onions and garlic contain the toxic ingredient thiosulphate, which can cause haemolytic anaemia in dogs. This condition is where the red blood cells in the dog's cardiovascular system  burst or die. This condition can take a few days to manifest after a dog has eaten an amount of onions. Symptoms include vomiting, diarrhea, lethargy, shortness of breath, and dark or red-colored urine.  An emergency visit to the vet is required if a dog has eaten a sizable amount of onions.",
+    "picfile": "onion.jpg"
+}
+ 
  ];
