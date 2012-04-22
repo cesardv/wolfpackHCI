@@ -113,3 +113,12 @@ div.foodItemText {
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	overflow:hidden;
 }
+
+.advisory {
+	font-size: .7em;
+	display: block;
+	text-align: center;
+	width: 550px;
+	float: right;
+	margin-right: 50px;
+}

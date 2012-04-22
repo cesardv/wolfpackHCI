@@ -93,5 +93,9 @@ $(document).ready( function() {
 	
 	$("div#both").trigger("click");
 
+	$("#disclaimer").click(function(e) {
+      e.preventDefault(); // if desired...
+      alert("DISCLAIMER:\nThe website and all of the materials on or referenced by the website are provided on an \"as is\" basis for informational purposes only. In no event shall woofpack.info, its owners, or creators be liable for any direct, indirect, incidental, punitive, or consequential damages of any kind whatsoever with respect to the use of the website or any information contained or linked to in this website. You agree that you are using the website solely at your own risk, for research or educational purposes. In case of medical/veterinary emergencies please contact a licensed veterinary doctor or call Animal Poison Control Center at 1-888-426-4435.");
+    });
 	
 });
