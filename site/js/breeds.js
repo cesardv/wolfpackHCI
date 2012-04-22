@@ -68,7 +68,18 @@ $(document).ready( function() {
 					picsrc = "./pics/" + val;
 					$("div#picfilename.breedImage").html("<img src='" + picsrc + "' height='100' width='100' />");
 				}
+				/*Trying to get json data into training tips and healthissue sections of accordion*/
+				if (aBreed.hasHealthIssue != "false") //(aBreed.hasHealthIssue==true)
+				{
+					$("td#issue.value").html("" + aBreed.healthIssues.issue);
+				}
+				else $("td#issue.value").html("None."); 
 				
+				if (aBreed.hasTrainingTip !="false")
+				{
+					$("td#tip.value").html("" + aBreed.trainingTip.tip);
+				}
+				else $("td#tip.value").html("None.");
 			});
 			
 		});
