@@ -35,19 +35,23 @@ div.breedHeader {
 
 div.breedImage {
 	/*position: relative;*/
+	/*display: inline;*/
 	float: right;
 	padding: 10px;
-	margin-top: 42px;
+	margin-top: 5px;
 	/*top:70px;
 	left:15px;*/
 	width:100px;
 	height:100px;
 }
+.breedImage img { float: right}
+
 
 div.breedName {
-	position:absolute;
+	/*position:absolute; 
 	top:15px;
-	left:15px;
+	left:15px;*/
+	margin: 15px 0 0 15px;
 	text-align:left;
 	color:#AFD147;
 	font-size:35px;
@@ -59,15 +63,16 @@ div.breedName {
 div.breedDescription {
 	/*position:relative;*/
 	padding: 3px; 
-	margin: 50px 3px 3px 25px;
+	/*margin: 5px 3px 3px 25px;*/
 	display: inline;
 	/*top:70px;
 	right:15px; */
 	float: left;
-	width:403px;
+	clear: none;
+	width:450px;
 	height:auto;
 	color:#555;
-	text-align:left;
+	/*text-align:left;*/
 	overflow:auto;
 	font-size:14px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
