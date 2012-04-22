@@ -10,7 +10,7 @@ h4 { margin: 0 10px 0 10px;}
 }
 
 #foodList{
-	overflow: hidden;/*scroll;*/
+	overflow: auto;/*scroll;*/
 }
 
 #foodContent {
@@ -65,6 +65,7 @@ div.foodtype {
 div.foodtype:hover {
 	color: #AFD147;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .foodtype_selected {
