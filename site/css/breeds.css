@@ -10,7 +10,8 @@
 	margin-left:auto;
 	margin-right:auto;
 	width:650px;
-	height:600px;	
+	height:auto;	
+	min-height: 700px;
 }
 
 select.breeds {

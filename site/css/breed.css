@@ -11,10 +11,13 @@ div.breedPanel {
 
 div.breedContentContainer {
 	position:relative;
+	padding-bottom: 3px;
 	margin-left:auto;
 	margin-right:auto;
 	width:600px;
-	height:570px;
+	height:auto;
+	min-height: 600px;
+	max-height: 695px;
 	top:10px;
 	border:thin groove;
 	background-color:white;
@@ -25,7 +28,8 @@ div.breedHeader {
 	margin-left:auto;
 	margin-right:auto;
 	width:590px;
-	height:200px;
+	height:250px;
+	overflow:auto;
 	
 }
 
@@ -33,7 +37,7 @@ div.breedImage {
 	/*position: relative;*/
 	float: right;
 	padding: 10px;
-	margin: 13px;
+	margin-top: 42px;
 	/*top:70px;
 	left:15px;*/
 	width:100px;
@@ -54,8 +58,8 @@ div.breedName {
 
 div.breedDescription {
 	/*position:relative;*/
-	padding: 5px 3px 3px 3px; 
-	margin: 50px 10px 10px 25px;
+	padding: 3px; 
+	margin: 50px 3px 3px 25px;
 	display: inline;
 	/*top:70px;
 	right:15px; */
