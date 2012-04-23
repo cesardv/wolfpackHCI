@@ -132,7 +132,7 @@ var breeds = [
     "picfilename": "irishwolf.PNG",
     "hasHealthIssue": true,
     "healthIssue": {
-        "issue": "Likeotherlargedogs, they tend to develop bone cancer. Also, do not feed supplements as they grow to be very large dogs even without them!"
+        "issue": "Like other large dogs, they tend to develop bone cancer. Also, do not feed supplements as they grow to be very large dogs even without them!"
     },
     "hasTrainingTip": true,
     "trainingTip": {
@@ -153,12 +153,9 @@ var breeds = [
 	"picfilename" : "pug.PNG",
 	"hasHealthIssue": true, 
 	"healthIssue" : 
-	{ 
-	"issue":"They suffer from a lot of breathing problems and hip dysplasia. Reverse sneezing is a common occurance due to their short snout. They don't do well in heat as their compact airways prevent them from ventilating and cooling themselves in temperatures higher than 108 °F. Prone to obesity and many other eye injuries."  },  
+	{ "issue":"They suffer from a lot of breathing problems and hip dysplasia. Reverse sneezing is a common occurance due to their short snout. They don't do well in heat as their compact airways prevent them from ventilating and cooling themselves in temperatures higher than 108 °F. Prone to obesity and many other eye injuries."  },  
 	"hasTrainingTip": true, 
-	"trainingTip" : {"tip":"Lots of exercise is needed to prevent obesity."  
-	}, 
-
+	"trainingTip" : {"tip":"Lots of exercise is needed to prevent obesity." }, 
 	"height" : "6-11 in." 
 
 }
