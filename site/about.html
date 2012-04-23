@@ -17,7 +17,7 @@
 		<script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" language="javascript" src='js/jquery-ui-1.8.18/js/jquery-ui-1.8.18.custom.min.js'></script>
         <link href="js/jquery-ui-1.8.18/css/south-street/jquery-ui-1.8.18.custom.css" type="text/css" rel='stylesheet' />
-	   <script src='./js/breeds.js'></script>
+	   <script type="text/javascript" src='./js/breeds.js'></script>
         <!-- END JQUERY -->
 			<!-- CSS global --> 
 			<style type="text/css">
@@ -27,10 +27,9 @@
 			
 			<!-- Favicon is nice-->
 			<link rel="shortcut icon" href="./pics/favicon.ico" type="image/x-icon" />
-
-</head>
-
-<script>
+			
+	<!-- jQuery UI **************************************  -->
+			<script type="text/javascript">
 	$(document).ready(function(){
 		//$( "#tabs" ).tabs();
 		
@@ -44,16 +43,14 @@
 		});			
 	});
 
-	$('#tabs').bind('tabsselect', function(event, ui) {
-	    // Objects available in the function context:
-	    ui.tab     // anchor element of the selected (clicked) tab
-	    ui.panel   // element, that contains the selected/clicked tab contents
-	    ui.index   // zero-based index of the selected (clicked) tab
-	});
-	
-
-</script>
-
+			$('#tabs').bind('tabsselect', function(event, ui) {
+				// Objects available in the function context:
+				ui.tab     // anchor element of the selected (clicked) tab
+				ui.panel   // element, that contains the selected/clicked tab contents
+				ui.index   // zero-based index of the selected (clicked) tab
+			});
+		</script><!-- jQuery UI **************************************  -->
+</head>
 <!-- 
 End of HEAD start of Body ==================================================================
 -->
@@ -88,46 +85,26 @@ End of HEAD start of Body ======================================================
 					         <li><a href="#contact" title="contact"><span>Contact</span></a></li>
 					     </ul>
 						<div id="site">
-							<h2> About Us (Part 3A)</h2>
-							<h3>Goals and Objectives: To provide useful information about several dog breeds.</h3>
-						
-							<h3>Projected User Community: <h3>
-							<h3>Age</h3>
-							<p>
-								The site provides information regarding food that is good or bad for dogs and breed specific information. It is not expected that the site will receive many visitors in their early 20s or younger. We expect age groups that currently have families or have older children away from home. According to the National Pet Owners Survey conducted by the American Pet Products Manufactures Association (APPMA), the average age of the pet owner in the U.S. is almost 43 years old. 
-							</p>
-							<h3>Sex</h3>
-							<p>
-								Gender will depend largely on the information the visitor wants. If a visitor is looking for food that is bad or good for a dog, it may be more likely that the visitor is a female. This information regards healthy nurturing of a dog, which we anticipate females and older males will be more interested in taking the time to research. 
-							</p>
-							<h3>Education</h3>
-							<p>
-								We expect that most visitors will be educated. Keeping an animal healthy is an expensive ordeal and higher yearly income has been consistently positively correlated with higher education attainment. 
-							</p>						
-							<h3>Tasks and Objectives of Users:</h3>
-							<p>
-								To research several breeds' health, common breed-specific tips, and general information regarding their behavior.<br />
-								To research healthy and unhealthy foods for dogs.
-							</p>
-							<h4>Sources:</h4>
-							<cite>
-								1. "Are You the Average Pet Owner?" PetPlace.com. http://www.petplace.com/dogs/are-you-the-average-pet-owner/page1.aspx. Retrieved 1 March 2012
-							</cite>						
+							<h2> About Us</h2>
+							<p>Woofpack.info's goal is to provide useful information about several dog breeds, and general information about dogs, their different behaviors, and how to feed and care for one. Our objective is that future dog owners learn more about the different types of dog breeds using our site and thus are able to make informed and educated decisions when choosing a dog to fit their lifestyle. Dog breeds are plenty, and each has its own unique characteristics and they all do better within environments/lifestyles that complement them. Additionally, many dog owners are unaware that some common household substances or food items, though safe for humans, might be very toxic to dogs. Another one of our goals, is to spread the word about some of these potentially dangerous foods and prevent accidents or pet deaths due to the pet-owner's misinformation.</p>
+							
 						</div>
+						<!-- end of site tab content-->
 						<div id="team">
-							Team Content
-						</div>
+							<p>Team <a href="http://ironduke.cs.gsu.edu/~wolfpack/">Wolfpack</a> was reponsible for this site.</p>
+						</div><!-- end of team tab  -->
 						<div id="contact">
-							Contact Content
-						</div>						     
-					</div>					
+							<p>Woofpack.info was created in the Spring of 2012 by a group of undergraduate Georgia State University students for a Human-Computer Interaction class under Dr. Scott Owen. Please <a href="mailto:info@woofpack.info">contact us</a> for any comments, questions or feedback! We're always looking to have improve the site and have correct, relevant and accurate information!</p>
+							<p>You can write to info@woofpack.info</p>
+						</div>	<!-- end of contact tab  -->					     
+					</div><!-- end of tabs  -->					
 				</div>
 			</div>	
 			<div class="colRight marginBottom">
 				<div id="moreResources" class="panelVert" style="margin-left:20px;">
 					<h2>More Resources</h2>
 					<ul>
-						<li>Link 1</li>
+						<li><a href="http://aspca.org"><abbr title="American Society for the Prevention of Cruelty to Animals">ASPCA.org</abbr></a></li>
 						<li>Link 2</li>
 						<li>Link n</li>
 					</ul>
