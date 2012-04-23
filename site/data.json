@@ -130,8 +130,8 @@ var breeds = [
     "lifespan": "5-10",
     "description": "Known as the tallest of the canines (yes, taller than a Great Dane!) Irish Wolfhounds are ative to the ancient Celtic lands of Ireland and Scotland. They are sighthounds, used since antiquity to hunt wolves and even go to battle. A very ancient breed, this amazing dog was noted in history by the Ancient Romans in Britain, notably Julius Caesar, who in his 'Gallic Wars' wrote of the dog's ferocious nature in battle. However, the Irish Wolfhound is generally quiet by nature but also very loyal to his family. An old Celtic proverb accurately describes this breed as 'Gentle when stroked, fierce when provoked.'",
     "picfilename": "irishwolf.PNG",
-    "hasHealthIssue": true,
-    "healthIssue": {
+    "hashealthIssues": true,
+    "healthIssues": {
         "issue": "Like other large dogs, they tend to develop bone cancer. Also, do not feed supplements as they grow to be very large dogs even without them!"
     },
     "hasTrainingTip": true,
@@ -151,8 +151,8 @@ var breeds = [
 	"lifespan" : "8-13", 
 	"description" : "Pugs are described as being a lot of 'dog persona' in a small package. Much like Chihuahuas, Pugs are quite energetic and playful dogs. A very old bred, they have been the companion of Tibetan monks for centuries. They officially are only fawn or black colored, the fawn-colored ones being the most popular. They have a very flat, wrinkly snout, and nose which bring this breed a lot of health issues. ", 
 	"picfilename" : "pug.PNG",
-	"hasHealthIssue": true, 
-	"healthIssue" : 
+	"hashealthIssues": true, 
+	"healthIssues" : 
 	{ "issue":"They suffer from a lot of breathing problems and hip dysplasia. Reverse sneezing is a common occurance due to their short snout. They don't do well in heat as their compact airways prevent them from ventilating and cooling themselves in temperatures higher than 108 °F. Prone to obesity and many other eye injuries."  },  
 	"hasTrainingTip": true, 
 	"trainingTip" : {"tip":"Lots of exercise is needed to prevent obesity." }, 
