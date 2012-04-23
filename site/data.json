@@ -139,6 +139,28 @@ var breeds = [
         "tip": "They are instintively prone to 'chasing' thus a good leash will often come in handy. However, they are not hardtotrain."
     },
     "height": "30-46 in"
+},
+
+{ 
+	"id" : 6870, 
+	"name" : "Pug", 
+	"origin" : "Tibet/China", 
+	"group" : "Toy" , 
+	"weight" : "14-18 lbs", 
+	"temperament" : "Friendly", 
+	"lifespan" : "8-13", 
+	"description" : "Pugs are described as being a lot of 'dog persona' in a small package. Much like Chihuahuas, Pugs are quite energetic and playful dogs. A very old bred, they have been the companion of Tibetan monks for centuries. They officially are only fawn or black colored, the fawn-colored ones being the most popular. They have a very flat, wrinkly snout, and nose which bring this breed a lot of health issues. ", 
+	"picfilename" : "pug.PNG",
+	"hasHealthIssue": true, 
+	"healthIssue" : 
+	{ 
+	"issue":"They suffer from a lot of breathing problems and hip dysplasia. Reverse sneezing is a common occurance due to their short snout. They don't do well in heat as their compact airways prevent them from ventilating and cooling themselves in temperatures higher than 108 °F. Prone to obesity and many other eye injuries."  },  
+	"hasTrainingTip": true, 
+	"trainingTip" : {"tip":"Lots of exercise is needed to prevent obesity."  
+	}, 
+
+	"height" : "6-11 in." 
+
 }
 
 ];
