@@ -158,6 +158,46 @@ var breeds = [
 	"trainingTip" : {"tip":"Lots of exercise is needed to prevent obesity." }, 
 	"height" : "6-11 in." 
 
+},
+
+{
+    "id": 8342,
+    "name": "Chihuahua",
+    "origin": "Central America",
+    "group": "Toy",
+    "weight": "less than 11 lbs",
+    "temperament": "Protective",
+    "lifespan": "10-20",
+    "description": "Chihuahuas are the smallest dog breed. They are named after the Chihuahua State in Mexico since that is where the earliest specimens were discovered. They are indeed a very intelligent breed, and are a popular breed for their 'big dog attitude' in a small package. They can be very temperamental and territorial at times, and display a clannish nature, thus Chihuahuas tend not do do well in homes with other dogs or small children. They are very alert dogs and make good apartment pets, however, they are sensitive to extreme temperatures and overfeeding.",
+    "picfilename": "chihuahua.jpg",
+    "hashealthIssues": true,
+    "healthIssues": {
+        "issue": "Dental issues are common so human food must be avoided. Reverse sneezing is an issue, and like other small dogs, they suffer from deformities that may be inherited. Newborn chihuahuas do not have a fully closed skullbone, thus great care must be taken with them."
+    },
+    "hasTrainingTip": true,
+    "trainingTip": {
+        "tip": "Temperament of the owner can influence the Chihuahua, and also they must not be spoiled as they tend to develop aggresive/possessive natures. Due to their protective nature they cannot be allowed to become too dependant on a single person in a household."
+    },
+    "height": "6-10 in"
+},
+
+{
+    "id": 6608,
+    "name": "Siberian Husky",
+    "origin": "Siberia, Russia",
+    "group": "Work Dog",
+    "weight": "50-80 lbs",
+    "temperament": "Energetic",
+    "lifespan": "12-15",
+    "description": "A very old and beautiful breed, huskies have been work dogs in the cold and harsh environments of the Artic for many centuries. They are very active, highly intelligent, and obedient (when trained) and have been known to mimic human actions such as turning doorknobs and light switches. Related to the alaskan Malamute, they have a thick double-coat of fur that required lots of grooming especially in the warm climates. They can exhibit heterochromia in their eyes, and have one eye electric-blue and the other amber-colored. They are known to have wolf-like behaviors like howling and a pack-like mentality. ",
+    "picfilename": "husky.jpg",
+    "hashealthIssues": false,
+    "healthIssues": null,
+    "hasTrainingTip": true,
+    "trainingTip": {
+        "tip": "-Great care must be taken when huskies are let off the leash as they can cover lots of miles running, can find themselves lost and far away from their owners in just a few hours.-Positive Reinforcement is best."
+    },
+    "height": "20-24 in"
 }
 
 ];
