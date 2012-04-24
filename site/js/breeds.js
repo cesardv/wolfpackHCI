@@ -69,7 +69,7 @@ $(document).ready( function() {
 					$("div#picfilename.breedImage").html("<img src='" + picsrc + "' height='100' width='100' />");
 				}
 				/*Trying to get json data into training tips and healthissue sections of accordion*/
-				if (aBreed.hasHealthIssue != "false") //(aBreed.hasHealthIssue==true)
+				if (aBreed.hashealthIssues != "false") //(aBreed.hasHealthIssue==true)
 				{
 					$("td#issue.value").html("" + aBreed.healthIssues.issue);
 				}

@@ -189,10 +189,10 @@ var breeds = [
     "weight": "50-80 lbs",
     "temperament": "Energetic",
     "lifespan": "12-15",
-    "description": "A very old and beautiful breed, huskies have been work dogs in the cold and harsh environments of the Artic for many centuries. They are very active, highly intelligent, and obedient (when trained) and have been known to mimic human actions such as turning doorknobs and light switches. Related to the alaskan Malamute, they have a thick double-coat of fur that required lots of grooming especially in the warm climates. They can exhibit heterochromia in their eyes, and have one eye electric-blue and the other amber-colored. They are known to have wolf-like behaviors like howling and a pack-like mentality. ",
+    "description": "A very old and beautiful breed, huskies have been work dogs in the cold and harsh environments of the Artic for many centuries. They are very active, highly intelligent, and obedient (when trained) and have been known to mimic human actions such as turning doorknobs and light switches. Related to the alaskan Malamute, they have a thick double-coat of fur that requires lots of grooming especially in the warm climates. They can exhibit heterochromia in their eyes, and have one eye electric-blue and the other amber-colored. They are known to have wolf-like behaviors like howling and a pack-like mentality. ",
     "picfilename": "husky.jpg",
     "hashealthIssues": false,
-    "healthIssues": null,
+    "healthIssues": { "issue" : "None."},
     "hasTrainingTip": true,
     "trainingTip": {
         "tip": "-Great care must be taken when huskies are let off the leash as they can cover lots of miles running, can find themselves lost and far away from their owners in just a few hours.-Positive Reinforcement is best."
