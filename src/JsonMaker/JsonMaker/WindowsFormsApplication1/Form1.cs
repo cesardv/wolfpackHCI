@@ -55,7 +55,7 @@ namespace WindowsFormsApplication1
                 {
                     obj += string.Format("\n\t\"hasHealthIssue\": true, \n\t\"healthIssue\" : \n\t{{ \n\t\"issue\":\"{0}\"  \n\n\t}}, \n\n", healthIssue.Text);
                 }
-                else obj += "\n\t\"hasHealthIssue\": false, \n\t\"healthIssue\" : null, ";
+                else obj += "\n\t\"hashealthIssues\": false, \n\t\"healthIssues\" : { \"issue\" : \"None.\"}, ";
 
                 if (HasTrainingTips.SelectedItem.ToString() == "True")
                 {
@@ -63,7 +63,7 @@ namespace WindowsFormsApplication1
                 }
                 else
                 {
-                    obj += " \n\t\"hasTrainingTip\": false, \n\t\"trainingTip\" : null, ";
+                    obj += " \n\t\"hasTrainingTip\": false, \n\t\"trainingTip\" :{ \"tip\" : \"None.\"}, ";
                 }
 
                 obj += string.Format("\n\t\"height\" : \"{0}\" ",heightTxtbox.Text);
