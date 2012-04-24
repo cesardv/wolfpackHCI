@@ -198,6 +198,26 @@ var breeds = [
         "tip": "-Great care must be taken when huskies are let off the leash as they can cover lots of miles running, can find themselves lost and far away from their owners in just a few hours.-Positive Reinforcement is best."
     },
     "height": "20-24 in"
+},
+
+{
+    "id": 8842,
+    "name": "Saint Bernard",
+    "origin": "Swiss and Italian Alps",
+    "group": "Work Dog",
+    "weight": "140-260 lbs",
+    "temperament": "Gentle",
+    "lifespan": "8-11",
+    "description": "This dog breed is a native to the European Alps, they were named after the St. Bernard Pass of the Western Alps where a monk named Bernard of Menthon established a hospice. Saint Bernard dogs have gathered a lot of fame and recognition over the years. Applauded for being rescue dogs for people trapped in snow avalanches, they're historically portayed as brandy-carrying work dogs. Saint Bernards are popular dogs, and they were featured in the 1990's comedy film 'Beethoven.' Despite their large size, they are for the most part very gentle and loyal if socialized and trained. They do very well and are very tolerant with younger children. With their red/tan and white coats, and black-shaded faces, they have become the icons of rescuers and the national dog of Switzerland.",
+    "picfilename": "stbernard.png",
+    "hashealthIssues": true,
+    "healthIssues": {
+        "issue": "Due to their fast growth, they can develop bone deterioration if not properly nourished or the dog is not exercised often. Drooling is a harmless but often unavoidable aspect of the breed."},
+    "hasTrainingTip": true,
+    "trainingTip": {
+        "tip": "Exercise and groom often, especially in warmer seasons. They do better in the suburbs and rual areas."
+    },
+    "height": "27-36 in."
 }
 
 ];
