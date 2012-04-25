@@ -218,6 +218,26 @@ var breeds = [
         "tip": "Exercise and groom often, especially in warmer seasons. They do better in the suburbs and rual areas."
     },
     "height": "27-36 in."
+},
+{
+    "id": 8484,
+    "name": "Great Dane",
+    "origin": "Germany/Denmark",
+    "group": "Hound",
+    "weight": "100-150 lbs",
+    "temperament": "Gentle",
+    "lifespan": "6-8",
+    "description": "Nicknamed the 'Gentle Giants,' the Great Danes are known for being among the tallests of dogs, and for being very elegant and magestic creatures. Thought to have been depicted in Egyptian paintings, they are known to have evolved from a Irish Wolfhound and English Mastiff cross. Great Danes were originally used for hunting ferocious wild boars in the past by Germanic tribes, but now they are mostly guard and estate dogs. They have a short coat that can be in a variety of coat types, such as fawn, brindle, blue, black, mantle and harlequin. ",
+    "picfilename": "greatdane.jpg",
+    "hashealthIssues": true,
+    "healthIssue": {
+        "issue": "Due to their great size they can suffer from bone and joint issues while growing up. It is often better to walk daily and not overexercise Great Danes to avoid those issues. They are prone to bloat, and a condition of the stomach (gastric dilatation-volvulus or GDV) where it twists and rotates cutting off bloodflow to the organs. This is a medical emergency that needs to be treated by surgery to prevent the death of the dog. This condition can be prevented by feeding smaller meals several times a day, and preventing activity after eating."
+    },
+    "hasTrainingTip": true,
+    "trainingTip": {
+        "tip": "Great Danes are highly trainable and intelligent, and they do well with other dogs and children. "
+    },
+    "height": "30-42 in"
 }
 
 ];
