@@ -256,6 +256,24 @@ var breeds = [
 	"trainingTip" : 
 	{ "tip":"Early socialization and training is a must."  },
 	"height" : "55-70 in." 
+},
+
+{ 
+	"id" : 5236, 
+	"name" : "Border Collie", 
+	"origin" : "Scotland/England", 
+	"group" : "Work Dog" , 
+	"weight" : "27-45 lbs", 
+	"temperament" : "Hyper-Energetic", 
+	"lifespan" : "12-16", 
+	"description" : "Called by the American Kennel Club as the 'workaholic of the working dogs,' the Border Collie is an incredibly intelligent, active, and efficient sheep dog. The Border Collie, in fact, is known as one of the most intelligent dogs and thus is very popular. However, they are very energetic dogs that need a lot of exercise and attention, and also constant mental stimulation. They are known for having neurotic and damaging behavior if not exercised enough, and also don't do well with children or other animals due to their strong herding instinct. A very agile and alert dog, they are oftem seen in competitions and dog shows around the world. ", 
+	"picfilename" : "bordercollie.PNG",
+	"hashealthIssues": true, 
+	"healthIssues" : { "issue":"His dysplasia, epilepsy, and a genetic disease known as Collie Eye Anomaly (CEA) are primary concerns in this breed."}, 
+	"hasTrainingTip": true, 
+	"trainingTip" : 
+	{"tip":"Exercise and groom often." }, 
+	"height" : "18-22 in." 
 }
 
 ];
