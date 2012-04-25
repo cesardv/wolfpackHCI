@@ -238,6 +238,24 @@ var breeds = [
         "tip": "Great Danes are highly trainable and intelligent, and they do well with other dogs and children. "
     },
     "height": "30-42 in"
+},
+
+{ 
+	"id" : 8442, 
+	"name" : "Rottweiler", 
+	"origin" : "Rottweil, Germany", 
+	"group" : "Work Dog",
+	"weight" : "40-60 lbs", 
+	"temperament" : "Protective", 
+	"lifespan" : "9-12", 
+	"description" : "Known for being police dogs and fierce attack dogs, Rottweilers are actually one of the oldests breeds of herding dogs. A medium/large breed, they developed as very effective herding and utlity dogs used to protect people and their livestock. They are very standoff-ish, and even aggressive, to strangers when in their territory and make excellent guard dogs. Though given a bad reputation sometimes as a dangerous dog, Rottweilers are usually very confident, good-natured, obedient, and hardworking dogs when trained. However, their great strength and protective nature must be balanced with training and good socialization in order to avoid problems. Irresponsible ownership has resulted in the breed being banned by law from certain communities.",
+	"picfilename" : "rottweiler.jpg",
+	"hashealthIssues": false, 
+	"healthIssues" : { "issue" : "None."},  
+	"hasTrainingTip": true, 
+	"trainingTip" : 
+	{ "tip":"Early socialization and training is a must."  },
+	"height" : "55-70 in." 
 }
 
 ];
