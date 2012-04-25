@@ -53,7 +53,7 @@ namespace WindowsFormsApplication1
                 //adds health sub-object if it has health issues
                 if (HasHealthIssues.SelectedItem.ToString() == "True")
                 {
-                    obj += string.Format("\n\t\"hasHealthIssue\": true, \n\t\"healthIssue\" : \n\t{{ \n\t\"issue\":\"{0}\"  \n\n\t}}, \n\n", healthIssue.Text);
+                    obj += string.Format("\n\t\"hashealthIssues\": true, \n\t\"healthIssue\" : \n\t{{ \n\t\"issue\":\"{0}\"  \n\n\t}}, \n\n", healthIssue.Text);
                 }
                 else obj += "\n\t\"hashealthIssues\": false, \n\t\"healthIssues\" : { \"issue\" : \"None.\"}, ";
 
