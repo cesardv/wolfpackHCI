@@ -4,7 +4,20 @@
 */
 
 $(document).ready( function() {
-	
+
+/*
+This next IF was added for iPad, iProducts compatibility with webapge. Tutorial found here: https://exoboy.wordpress.com/2011/05/30/make-your-jquery-website-buttonslinks-work-with-ipadiphone/
+*/
+if( String(navigator.userAgent).search(/(iPad)|(iPhone)/i) > 0 )
+		{
+		
+			// add an onclick event handler function for all items that need it so the iPad/iPhone will pass it touch events as mouse events!
+			$('.breedItem').each(function(){
+				this.onclick = function(){ alert( $(this).attr('id') + ": I have an onclick event property!") };
+		});
+	}
+
+
 	/*LETTER PANEL*/
 	var char = 0;
 	var html = "<div id='any' class='letter' style='margin-left:20px'>Any</div>";
