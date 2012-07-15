@@ -66,7 +66,7 @@ $(document).ready( function() {
 				if (key=="picfilename")
 				{
 					picsrc = "./pics/" + val;
-					$("div#picfilename.breedImage").html("<img src='" + picsrc + "' height='100' width='100' />");
+					$("div#picfilename.breedImage").html("<a href='" + picsrc + "'><img src='" + picsrc + "' height='100' width='100' />");
 				}
 				/*Trying to get json data into training tips and healthissue sections of accordion*/
 				if (aBreed.hashealthIssues != "false") //(aBreed.hasHealthIssue==true)
